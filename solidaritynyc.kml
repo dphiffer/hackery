@@ -1,0 +1,4557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>New York City&#39;s Solidarity Economy</name>
+  <description><![CDATA[A map of enterprises, initiatives, and organizations focused on cooperation and mutualism, democracy, justice, and ecological sustainability within the 5 boroughs. Brought to you by SolidarityNYC, www.solidaritynyc.org.]]></description>
+  <Style id="style282">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style162">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style264">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style288">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style239">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style286">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style230">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style218">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/transport.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style181">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/health.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style228">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style249">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style227">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style213">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style126">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/health.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style127">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style131">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style92">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style250">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style238">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style137">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style134">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style254">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style114">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style195">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style190">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style112">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style174">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style70">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style274">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style115">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style120">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style89">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style187">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/health.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style252">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style84">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style198">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style272">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style260">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style81">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style209">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style122">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style222">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style270">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style175">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style200">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style74">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style170">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style80">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style212">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style263">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style160">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style251">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style236">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style142">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style130">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style177">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style67">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style255">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style223">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style247">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style226">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style90">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style237">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style220">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style221">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style199">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style259">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style135">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style118">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style88">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style256">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style189">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style76">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style276">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style283">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style116">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style257">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style215">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style75">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style205">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style224">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style149">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style104">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style143">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style292">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style178">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style182">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style98">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style93">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style128">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style207">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style132">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style248">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style297">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style153">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style295">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style109">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style296">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style171">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style298">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style110">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style281">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style145">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style96">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style106">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style180">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style244">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style117">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/transport.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style165">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style266">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style204">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style191">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style136">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style267">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style268">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style280">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style176">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style229">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style102">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style243">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style169">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style77">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style253">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style231">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style119">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style166">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style275">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style103">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style99">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style184">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style210">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style293">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style193">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style167">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style206">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style161">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style262">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style69">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style287">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style194">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style172">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style71">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style201">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style85">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style148">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style299">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style101">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style245">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style151">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style97">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style300">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style163">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style179">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style156">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style82">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style265">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style105">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style94">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style240">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style246">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style216">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style147">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style185">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style129">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style188">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style269">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style291">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style159">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style123">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style234">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style79">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style140">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style186">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style284">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style124">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style95">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style241">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style164">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style87">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style273">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style68">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style78">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style278">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style225">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style173">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style294">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style86">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style271">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style202">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style154">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style141">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style289">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style277">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style214">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style242">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style107">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style290">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style196">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style125">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style138">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style83">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style139">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style146">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style208">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style301">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style232">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style144">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style133">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style279">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style211">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style235">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style217">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style111">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style261">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style108">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style73">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style219">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style150">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style100">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style197">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style192">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style258">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style285">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style91">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style157">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/housing.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style233">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style72">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/advocacy.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style158">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/food.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style203">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style183">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style152">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/learn+play.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style121">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style168">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style155">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style113">
+    <IconStyle>
+      <Icon>
+        <href>http://dl.dropbox.com/u/15758040/banking.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Park Slope Food Cooperative</name>
+    <description><![CDATA[<div dir="ltr">Food: consumer cooperative<br><br>&nbsp;</div>]]></description>
+    <styleUrl>#style282</styleUrl>
+    <Point>
+      <coordinates>-73.976791,40.674881,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>OurGoods</name>
+    <description><![CDATA[<div>Arts, Media, and Culture</div><div>- collective decision making</div><div>- barter network for artists, designers, and craftspeople</div><div><br>&nbsp;</div><div><a href="http://ourgoods.org" target="_blank">http://ourgoods.org</a></div><div><br>&nbsp;</div>Brooklyn, NY 11231<br><a href="http://maps.google.com/maps/place?ftid=0x89c25af744c0322b:0x82afe8cfbb39fdae&amp;q=65+9th+St,+Brooklyn,+NY+11231&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=7XtaTubzNKXcyASGtsinAw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.673608,-73.995559&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style162</styleUrl>
+    <Point>
+      <coordinates>-73.995560,40.673607,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Little Sisters-The Assumption</name>
+    <description><![CDATA[<div dir="ltr">Advocacy and organizing: worker cooperative incubator</div>]]></description>
+    <styleUrl>#style264</styleUrl>
+    <Point>
+      <coordinates>-73.936630,40.795750,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lower East Side Peoples&#39;s Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union (FCU)</div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-73.982788,40.722775,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ganas</name>
+    <description><![CDATA[<div>Housing: intentional community</div><div><br>&nbsp;</div><div>135 Corson Ave</div>Staten Island, NY 10301<br><a href="http://maps.google.com/maps/place?ftid=0x89c24e317beafc35:0x1d033eca12829f0d&amp;q=GANAS,+135+Corson+Ave.,+Staten+Island,+NY+10301-2933&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=q4FaTpG1B5nqzAT38NHnBg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.637849,-74.083332&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style288</styleUrl>
+    <Point>
+      <coordinates>-74.083328,40.637848,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Every Thing Goes Clothing</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: collective thrift store</div>]]></description>
+    <styleUrl>#style239</styleUrl>
+    <Point>
+      <coordinates>-74.076004,40.638966,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fulton Market CSA</name>
+    <description><![CDATA[CSA<br><br>http://fultonmarketcsa.wordpress.com/<br><a href="http://maps.google.com/maps/place?ftid=0x89c25a3cf92499a9:0x730f80924605f812&amp;q=South+St.+and+Fulton+St.&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=-oJaTsWRNpDwyQSljpS8AQ&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style286</styleUrl>
+    <Point>
+      <coordinates>-74.003136,40.706249,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bluestockings</name>
+    <description><![CDATA[<div dir="ltr">Education/Community Spaces: collectively run book store</div>]]></description>
+    <styleUrl>#style230</styleUrl>
+    <Point>
+      <coordinates>-73.988914,40.721531,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Time&#39;s Up!</name>
+    <description><![CDATA[<div dir="ltr">Transportation: bike collective</div>]]></description>
+    <styleUrl>#style218</styleUrl>
+    <Point>
+      <coordinates>-73.964485,40.710857,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Third Root Community Health Center LLC</name>
+    <description><![CDATA[<div dir="ltr">Healthcare: community health worker co-op</div>]]></description>
+    <styleUrl>#style181</styleUrl>
+    <Point>
+      <coordinates>-73.964516,40.640800,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fishbridge Community Garden</name>
+    <description><![CDATA[<div dir="ltr">Community Garden</div>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>-74.000862,40.708790,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Red Shed Garden</name>
+    <description><![CDATA[<div dir="ltr">Community Garden</div>]]></description>
+    <styleUrl>#style228</styleUrl>
+    <Point>
+      <coordinates>-73.940224,40.716080,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pier 40 Community Boat House</name>
+    <description><![CDATA[<div dir="ltr">Community Land Trust;<br>Recreation: <span style="font-style:italic">Village Community Boathouse (cooperatively managed community rowing club</span>, <div><a dir="ltr" target="_blank">villagecommunityboathouse.org</a><span>‎</span></div><span style="font-style:italic">), Downtown Boathouse (community kayaking club)</span></div>]]></description>
+    <styleUrl>#style249</styleUrl>
+    <Point>
+      <coordinates>-74.011147,40.729156,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Commons Brooklyn</name>
+    <description><![CDATA[<div dir="ltr">Education and Community Space<br>http://thecommonsbrooklyn.org/</div>]]></description>
+    <styleUrl>#style227</styleUrl>
+    <Point>
+      <coordinates>-73.985641,40.686874,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Colors</name>
+    <description><![CDATA[<div dir="ltr">Worker Coop</div>]]></description>
+    <styleUrl>#style213</styleUrl>
+    <Point>
+      <coordinates>-73.992210,40.728523,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Center For Family Life</name>
+    <description><![CDATA[<div dir="ltr">Incubates worker co-ps and collectives</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-74.015511,40.643398,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restaurant Opportunities Center</name>
+    <description><![CDATA[<div dir="ltr">Worker training Support</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-73.992836,40.748203,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cooperative Home Care Associates</name>
+    <description><![CDATA[<div dir="ltr">Home Care</div>]]></description>
+    <styleUrl>#style126</styleUrl>
+    <Point>
+      <coordinates>-73.919678,40.816868,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>4th Street Food Co-Op</name>
+    <description><![CDATA[<div dir="ltr">Food Coop</div>]]></description>
+    <styleUrl>#style127</styleUrl>
+    <Point>
+      <coordinates>-73.990738,40.726643,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ReBuilders Source</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-73.905785,40.810123,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Make the Road New York</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-73.874542,40.748604,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Bronx Food Cooperative</name>
+    <description><![CDATA[<div dir="ltr">Food Coop</div>]]></description>
+    <styleUrl>#style131</styleUrl>
+    <Point>
+      <coordinates>-73.912224,40.821648,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Flatbush Food Co-op</name>
+    <description><![CDATA[<div dir="ltr">Food Coop</div>]]></description>
+    <styleUrl>#style92</styleUrl>
+    <Point>
+      <coordinates>-73.964851,40.641132,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Voices Heard</name>
+    <description><![CDATA[<div dir="ltr">Participatory Budgeting</div>]]></description>
+    <styleUrl>#style250</styleUrl>
+    <Point>
+      <coordinates>-73.946823,40.792789,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Carver Federal Savings Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Community Bank</div>]]></description>
+    <styleUrl>#style238</styleUrl>
+    <Point>
+      <coordinates>-73.998711,40.745407,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ABC No Rio</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: non-profit, arts collective</div>]]></description>
+    <styleUrl>#style137</styleUrl>
+    <Point>
+      <coordinates>-73.985397,40.719257,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Paper Tiger Television</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture<br>http://papertiger.org/</div>]]></description>
+    <styleUrl>#style134</styleUrl>
+    <Point>
+      <coordinates>-73.994545,40.726040,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bay Ridge CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://www.bayridgecsa.org/<br>&nbsp;</div>]]></description>
+    <styleUrl>#style254</styleUrl>
+    <Point>
+      <coordinates>-74.022781,40.635277,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bethex Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style114</styleUrl>
+    <Point>
+      <coordinates>-73.907990,40.852139,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Lutta Media Collective</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture <br>http://www.lalutta.org</div>]]></description>
+    <styleUrl>#style195</styleUrl>
+    <Point>
+      <coordinates>-74.036179,40.685326,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bronx Holy Family CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA<br>http://holyfamilycsa.org/</div>]]></description>
+    <styleUrl>#style190</styleUrl>
+    <Point>
+      <coordinates>-73.851112,40.829445,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Love Gospel Assembly Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style112</styleUrl>
+    <Point>
+      <coordinates>-73.900116,40.858067,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Anthology Film Archives</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture<br>http://anthologyfilmarchives.org</div>]]></description>
+    <styleUrl>#style174</styleUrl>
+    <Point>
+      <coordinates>-73.990120,40.724655,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Si Se Puede!</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: Worker co-op cleaning service<br>http://www.wecandoit.coop/</div>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>-74.004860,40.651978,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Creative Capital Foundation</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture<br>http://www.creative-capital.org</div>]]></description>
+    <styleUrl>#style70</styleUrl>
+    <Point>
+      <coordinates>-73.995201,40.726326,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>City Island CSA</name>
+    <description><![CDATA[<span>Food: CSA<br>(347) 525-4727</span><br>City Island Ave, Bronx, NY<br>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>-73.786514,40.847263,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yellow Hook CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://yellowhookcsa.org/about/</div>]]></description>
+    <styleUrl>#style274</styleUrl>
+    <Point>
+      <coordinates>-74.025993,40.626789,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bridge Street AME Church</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style115</styleUrl>
+    <Point>
+      <coordinates>-73.932220,40.685001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Emigre Gourmet</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: Worker coop catering<br>http://emigregourmet.weebly.com/</div>]]></description>
+    <styleUrl>#style120</styleUrl>
+    <Point>
+      <coordinates>-74.004860,40.651978,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>DCTV</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture<br>artdctvny.org</div>]]></description>
+    <styleUrl>#style89</styleUrl>
+    <Point>
+      <coordinates>-74.001297,40.717384,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beyond Care Childcare Cooperative</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style187</styleUrl>
+    <Point>
+      <coordinates>-74.004860,40.651978,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Cooperative Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style252</styleUrl>
+    <Point>
+      <coordinates>-73.915634,40.698986,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Norwood CSA</name>
+    <description><![CDATA[Food: CSA<br>3150 Rochambeau Ave, Bronx, NY 10467<br>http://www.norwoodfoodcoop.org/<br>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-73.880180,40.874016,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Cooperative Federal Credit Union</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style84</styleUrl>
+    <Point>
+      <coordinates>-73.915634,40.698986,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A.I.R. Gallery</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: collective residency, non-profit</div>]]></description>
+    <styleUrl>#style198</styleUrl>
+    <Point>
+      <coordinates>-73.988945,40.702515,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Konscious Collective</name>
+    <description><![CDATA[Arts, Media, Culture: http://www.konscious.com/<br><a href="http://maps.google.com/maps/place?ftid=0x89c25982f928dc93:0x8c2716f7268e09ed&amp;q=39+Avenue+A++ny&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=zh1cTtbsCaSczAWqqLg1&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style272</styleUrl>
+    <Point>
+      <coordinates>-73.985535,40.723507,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Turf CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA<br>http://turfnews.blogspot.com/</div>]]></description>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>-73.860558,40.834663,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Third World Newsreel</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: twn.org</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-73.991425,40.754902,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bykota Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-73.961502,40.681938,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sister&#39;s Hill Farm CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA<br>(718) 549-9200 x257</div>]]></description>
+    <styleUrl>#style260</styleUrl>
+    <Point>
+      <coordinates>-73.906609,40.911983,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chelsea CSA</name>
+    <styleUrl>#style81</styleUrl>
+    <Point>
+      <coordinates>-74.001251,40.749237,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Consumers Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style209</styleUrl>
+    <Point>
+      <coordinates>-73.969543,40.580036,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hawthorne Valley CSA in Riverdale</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA<br>http://hawthornevalleyfarm.org/csa/csa.htm</div>]]></description>
+    <styleUrl>#style122</styleUrl>
+    <Point>
+      <coordinates>-73.903862,40.903484,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Merchants&#39; Gate CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-73.986443,40.768353,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Asian American Womens Artist Alliance</name>
+    <description><![CDATA[Arts, Media, and Culture: <br><br>info@aawaa.org<br>136 15th St<br>Brooklyn, NY 11215<br><a href="http://maps.google.com/maps/place?ftid=0x89c25ae5259d2acf:0xf34d56c5b788f1cc&amp;q=136+15th+Street,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=kx9cTrXEDJGKygTe5OnrBg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.666780,-73.992358&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style222</styleUrl>
+    <Point>
+      <coordinates>-73.992355,40.666779,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rooftop Films</name>
+    <description><![CDATA[Arts, Media, Culture: http://rooftopfilms.com<br><a href="http://maps.google.com/maps/place?ftid=0x89c25aff3b5c7d1b:0xbe735b2838cab729&amp;q=232+3rd+Street,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=wx9cTteXBYfiygXp7qG1Bg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style270</styleUrl>
+    <Point>
+      <coordinates>-73.987808,40.674892,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Bronx CSA</name>
+    <description><![CDATA[Food: CSA<br>Brook Ave &amp; E 140th St, Bronx, NY 10454<br>http://www.southbronxcsa.org/<br>]]></description>
+    <styleUrl>#style175</styleUrl>
+    <Point>
+      <coordinates>-73.918434,40.808926,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bed Stuy Farm Share</name>
+    <description><![CDATA[Food: CSA. Website: http://www.bedstuyfarmshare.org/<br>]]></description>
+    <styleUrl>#style200</styleUrl>
+    <Point>
+      <coordinates>-73.939095,40.688290,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Van Cortlandt Park</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA<br>http://sites.google.com/site/vancortlandtcsa/</div>]]></description>
+    <styleUrl>#style74</styleUrl>
+    <Point>
+      <coordinates>-73.886589,40.897060,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Trade School</name>
+    <description><![CDATA[<div dir="ltr">Education/Community Space<br>March 2012<br>tradeschool.ourgoods.org</div>]]></description>
+    <styleUrl>#style170</styleUrl>
+    <Point>
+      <coordinates>-73.987724,40.719429,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wooster Group</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, and Culture: <span>thewoostergroup.org</span></div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-74.002785,40.722256,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Good Counsel FCU</name>
+    <description><![CDATA[Banking and Finance: Federal Credit Union]]></description>
+    <styleUrl>#style80</styleUrl>
+    <Point>
+      <coordinates>-73.924530,40.687210,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bed-Stuy Farm Share</name>
+    <description><![CDATA[Food: CSA. Website: http://www.bedstuyfarmshare.org/<br>]]></description>
+    <styleUrl>#style212</styleUrl>
+    <Point>
+      <coordinates>-73.931122,40.672306,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rooftop Films Equipment Rentals</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: rooftopfilms.com/rentals.html</div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-73.985085,40.678532,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sixth Street CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-73.980186,40.723816,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Food Coalition,</name>
+    <description><![CDATA[Food: co-op dev, community gardens, urban farming<br>33 Flatbush Ave,&nbsp;&nbsp; <br>Brooklyn, NY 11217<br><a href="http://maps.google.com/maps/place?ftid=0x89c25bb3018160c9:0xe7e082d230f81395&amp;q=33+Flatbush+Ave+Brooklyn,+NY+11217&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=gSFcTp3HNoW2yQSdkYSXBw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.687520,-73.979858&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-73.979858,40.687519,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inter-American Federal Cu</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style263</styleUrl>
+    <Point>
+      <coordinates>-73.974144,40.685413,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Underground Films</name>
+    <description><![CDATA[Arts, Media, Culture: http://brooklynunderground.org]]></description>
+    <styleUrl>#style160</styleUrl>
+    <Point>
+      <coordinates>-74.021759,40.656029,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bed-Stuy Farm Share</name>
+    <description><![CDATA[Food: CSA. Website: http://www.bedstuyfarmshare.org/<br>]]></description>
+    <styleUrl>#style251</styleUrl>
+    <Point>
+      <coordinates>-73.954247,40.685047,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Artists Anonymous</name>
+    <description><![CDATA[<br>http://www.artsanonymous.org/<br>1013 Broadway<br>Brooklyn, NY 11221<br><a href="http://maps.google.com/maps/place?ftid=0x89c25c09072ddaad:0x52aecfb64545ca61&amp;q=1013+Broadway+4N+brooklyn+ny&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=uiJcTtv6H6TYyASw-O3oBg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.695756,-73.932897&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style236</styleUrl>
+    <Point>
+      <coordinates>-73.932899,40.695755,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>SPC Brooklyn Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style142</styleUrl>
+    <Point>
+      <coordinates>-73.957161,40.682110,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Free School</name>
+    <description><![CDATA[<div dir="ltr">Education/Community Space – School</div>]]></description>
+    <styleUrl>#style130</styleUrl>
+    <Point>
+      <coordinates>-73.967857,40.687107,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bushwick Chapter Food Not Bombs</name>
+    <description><![CDATA[Food: collectively distributed free meals<br>Knickerbocker Ave &amp; Starr St, Brooklyn, NY 11237<br><a href="http://www.myspace.com/anewworldinourhearts" target="_blank">www.anewworldinourhearts</a>.org<br>]]></description>
+    <styleUrl>#style177</styleUrl>
+    <Point>
+      <coordinates>-73.925392,40.702808,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Transfiguration Parish CU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>-73.953011,40.706978,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tuv Ha&#39;Aretz Downtown CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style67</styleUrl>
+    <Point>
+      <coordinates>-73.983246,40.731449,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Imagenation</name>
+    <description><![CDATA[Arts, Culture, Media: http://www.imagenation.us/]]></description>
+    <styleUrl>#style255</styleUrl>
+    <Point>
+      <coordinates>-73.929916,40.803936,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>DRUM Desis Rising up and Moving</name>
+    <description><![CDATA[Arts, Media, and Culture:<br><br>72-08 Broadway<br>Queens, NY 11372<br><a href="http://maps.google.com/maps/place?ftid=0x89c25f06ca977577:0x1ae5f0d5a1d7c7f3&amp;q=72-76+Broadway,+Jackson+Heights,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=4SNcTp_wBKrWyASp-dW4Bw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.747354,-73.893309&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-73.893311,40.747353,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brecht Forum</name>
+    <description><![CDATA[<div dir="ltr">Education/Community Space <br>Conference Center</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-73.992310,40.745731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sweet Pea CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://sites.google.com/site/sweetpeacsa/</div>]]></description>
+    <styleUrl>#style223</styleUrl>
+    <Point>
+      <coordinates>-73.992813,40.695297,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ABC No Rio</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-73.985397,40.719257,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Paul Quinn Federal CU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style247</styleUrl>
+    <Point>
+      <coordinates>-73.827263,40.761848,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NYC Network of Worker Co-operatives,</name>
+    <description><![CDATA[Advocacy and Organizing: Support and development network for worker co-operatives<br>New York, NY 10038<br>]]></description>
+    <styleUrl>#style226</styleUrl>
+    <Point>
+      <coordinates>-74.007133,40.709312,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NYC Food Not Bombs</name>
+    <description><![CDATA[<div dir="ltr">Food: Collective distribution of free meals<br>http://www.abcnorio.org/affiliated/fnb.html</div>]]></description>
+    <styleUrl>#style90</styleUrl>
+    <Point>
+      <coordinates>-73.983826,40.730740,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Autonomedia</name>
+    <description><![CDATA[<div dir="ltr">Arts, Culture, and Media: </div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-73.966141,40.699383,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Neighborhood School CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-73.985901,40.723927,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bicycle Film Festival</name>
+    <description><![CDATA[Arts, Media, Culture http://www.bicyclefilmfestival.com]]></description>
+    <styleUrl>#style237</styleUrl>
+    <Point>
+      <coordinates>-73.969917,40.719551,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Public School</name>
+    <description><![CDATA[Education/Community Space<br>September 2011<br>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-73.955620,40.734581,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Really, Really, Free Market</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: collectively managed freegan market<br><br>Check website for actual times http://freegan.info/what-is-a-freegan/freegan-events-in-new-york/</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-73.998436,40.730370,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Harlem Community Farm Share</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style220</styleUrl>
+    <Point>
+      <coordinates>-73.954987,40.803944,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Global Action Project</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: global-action.org</div>]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>-73.983948,40.750423,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bethel Gospel Tabernacle FCU</name>
+    <description><![CDATA[Banking and Finance: Federal Credit Union]]></description>
+    <styleUrl>#style221</styleUrl>
+    <Point>
+      <coordinates>-73.786926,40.702503,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Song CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>-73.953041,40.807129,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Bridge CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://sites.google.com/site/acsagrowsinbrooklyn/<br>]]></description>
+    <styleUrl>#style199</styleUrl>
+    <Point>
+      <coordinates>-73.991264,40.696327,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>WOW Cafe &amp; Theater</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, and Culture: the oldest all women and trans-women theater collective in the country.</div>]]></description>
+    <styleUrl>#style259</styleUrl>
+    <Point>
+      <coordinates>-73.990837,40.726864,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NYC Intercoop Group, </name>
+    <description><![CDATA[Food: Supports food-coop development<br>782 Union St, Brooklyn, NY 11215-1307 <br>Brooklyn, NY 11215<br><a href="http://maps.google.com/maps/place?ftid=0x89c25b075419fc01:0xff4431f4a5aa0d66&amp;q=782+Union+St,+Brooklyn,+NY+11215-1307&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=_CZcTr3NIZPAyQW1nbGVCw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.674874,-73.976803&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style135</styleUrl>
+    <Point>
+      <coordinates>-73.976807,40.674873,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eldert Street CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.eldertstreetcsa.org/<a href="http://maps.google.com/maps/place?ftid=0x89c25dc02c1f63f9:0xba54bbc53a807297&amp;q=315+Eldert+Lane,+Brooklyn,+New+York,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=QCdcTumUE4SiygWg9qHGBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-73.866005,40.681908,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Central Harlem CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style118</styleUrl>
+    <Point>
+      <coordinates>-73.944214,40.815392,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Responsible Endowments Coalition</name>
+    <description><![CDATA[Advocacy and Organizing: Activist Organization]]></description>
+    <styleUrl>#style88</styleUrl>
+    <Point>
+      <coordinates>-73.979858,40.687519,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mending Circle</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: mending circle with free use of sewing machines and tools<br>http://www.textileartscenter.com/</div>]]></description>
+    <styleUrl>#style256</styleUrl>
+    <Point>
+      <coordinates>-73.985168,40.676929,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Red Channels</name>
+    <description><![CDATA[<div dir="ltr">Arts/Media/Culture<br>redchannels.org</div>]]></description>
+    <styleUrl>#style189</styleUrl>
+    <Point>
+      <coordinates>-74.031372,40.592056,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blackout Arts Collective</name>
+    <description><![CDATA[<font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="2"><font color="#000000">Arts, Media, Culture:</font></font><br><a href="http://maps.google.com/maps/place?ftid=0x89c259ac556e9519:0x9afbcf8201510332&amp;q=266+West+37th+St.,+New+York&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=6SdcTsitCJO0yASu7s3XBg&amp;dtab=5" target="_blank"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="2"><font color="#000000">http://www.blackoutartscollective.com</font></font><br></a>]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Point>
+      <coordinates>-73.991699,40.753807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bushwick Food Coop CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://thebushwickcsa.wordpress.com/<a href="http://maps.google.com/maps/place?ftid=0x89c25c0208309f5d:0xa3d5557c9835451c&amp;q=119+Ingraham+Street,+Brooklyn,+New+York,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=CChcToaYFJWUywXe6fXXBQ&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style76</styleUrl>
+    <Point>
+      <coordinates>-73.929230,40.707867,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Grassroots Economic Organizing</name>
+    <description><![CDATA[Grassroots Media Collective and Activist Organization]]></description>
+    <styleUrl>#style276</styleUrl>
+    <Point>
+      <coordinates>-73.979858,40.687519,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>West Harlem CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-73.964943,40.806763,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sewing Rebellion</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: mending circle toolshare<br>http://sewingrebellionnyc.wordpress.com/</div>]]></description>
+    <styleUrl>#style283</styleUrl>
+    <Point>
+      <coordinates>-73.962807,40.711578,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Flux Factory</name>
+    <description><![CDATA[<div dir="ltr">Arts/Media/Culture</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-73.925629,40.752197,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Carroll Gardens CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://sites.google.com/site/carrollgardenscsa/location-time<a href="http://maps.google.com/maps/place?ftid=0x89c25a58164455b5:0x43cb7196a2886b8c&amp;q=Smith+St+%26+2nd+Place,+Brooklyn,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=uihcTvSENZPqygWHyZXIBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style116</styleUrl>
+    <Point>
+      <coordinates>-73.995674,40.679047,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Urban Justice Center</name>
+    <description><![CDATA[<div dir="ltr">cooperative law</div>]]></description>
+    <styleUrl>#style257</styleUrl>
+    <Point>
+      <coordinates>-74.007149,40.709305,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wildman Steve Brill</name>
+    <description><![CDATA[<div dir="ltr">Food: foraging<br>www.wildmanstevebrill.com</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-73.962250,40.661613,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>East River Development Alliance</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style215</styleUrl>
+    <Point>
+      <coordinates>-73.941704,40.755753,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Proteus Gowanus</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, and Culture: <br><br>the Fixer's Collective meets here<br>http://proteusgowanus.org/fixers-collective/<br>&nbsp;</div>]]></description>
+    <styleUrl>#style75</styleUrl>
+    <Point>
+      <coordinates>-73.987556,40.679226,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>President St &amp; Van Brunt St</name>
+    <description><![CDATA[Brooklyn, NY 11231<br><a href="http://maps.google.com/maps/place?ftid=0x89c25a5de3c9e7a9:0xfef3752280916c65&amp;q=President+St+%26+Van+Brundt+Street,+Brooklyn,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=wylcToP5DJqyyAXxmYCpBw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.684319,-74.005497&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style205</styleUrl>
+    <Point>
+      <coordinates>-74.005501,40.684319,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Urban Meadow CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://urbanmeadowcsa.tumblr.com/<a href="http://maps.google.com/maps/place?ftid=0x89c25a5de3c9e7a9:0xfef3752280916c65&amp;q=President+St+%26+Van+Brundt+Street,+Brooklyn,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=wylcToP5DJqyyAXxmYCpBw&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>-74.005501,40.684319,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Grub Community Building Meal</name>
+    <description><![CDATA[Food: collective freegan meal<br>1st &amp; 3rd Sunday every month. A mostly freegan dinner for strangers 
+and co-conspirators in a relaxed environment. There is no charge but 
+donations are requested. Doors at 6:30pm; dinner at 7. At 136 Lawrence 
+St. on the 2nd floor, between Fulton &amp; Willoughby in Brooklyn, NY.<br>http://www.facebook.com/group.php?gid=80510307592<br><a href="http://maps.google.com/maps/place?ftid=0x89c25a4b9ba78417:0x4036cc5718247b6&amp;q=136+Lawrence+St.,++Brooklyn,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=VSpcTuGeJoTGzgSh9JmHBw&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style224</styleUrl>
+    <Point>
+      <coordinates>-73.986435,40.692104,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inwood CSA</name>
+    <description><![CDATA[Isham Park, New York, NY 10034<br>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>-73.919449,40.869728,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>16 Beaver Group</name>
+    <description><![CDATA[Arts/Media/Culture<br>16 Beaver St, New York, NY 10004<br>16beavergroup.org<br>]]></description>
+    <styleUrl>#style149</styleUrl>
+    <Point>
+      <coordinates>-74.012497,40.704800,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cobble Hill CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.cobblehillcsa.org/<a href="http://maps.google.com/maps/place?ftid=0x89c25a5a59a91c2f:0xb76dbceddc56d934&amp;q=326+Clinton+Street,+Brooklyn,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=sypcTpK9CpPAyQW1nbGVCw&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style104</styleUrl>
+    <Point>
+      <coordinates>-73.996559,40.685738,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Just Food</name>
+    <description><![CDATA[<div dir="ltr">city farms · csa in nyc · urban gardeners · farmers · community gardeners<br>&nbsp;</div>]]></description>
+    <styleUrl>#style143</styleUrl>
+    <Point>
+      <coordinates>-73.983345,40.756618,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stanton Street CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style292</styleUrl>
+    <Point>
+      <coordinates>-73.983536,40.723450,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Supported Kitchen</name>
+    <description><![CDATA[<div dir="ltr">Food: <br><br>"The Kitchen Table is a community kitchen and parenting collective for unschooling families committed to social change."<br><br>http://thekitchentablenyc.wordpress.com/the-csk/csk-locations/</div>]]></description>
+    <styleUrl>#style178</styleUrl>
+    <Point>
+      <coordinates>-73.961761,40.825241,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Crown Heights CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.crownheightscsa.org/<br>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-73.953705,40.674503,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Louder Arts</name>
+    <description><![CDATA[Arts, Media, Culture: http://www.louderarts.com<br>]]></description>
+    <styleUrl>#style182</styleUrl>
+    <Point>
+      <coordinates>-74.036179,40.694435,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>All Souls Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style98</styleUrl>
+    <Point>
+      <coordinates>-73.952148,40.801685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Central Brooklyn CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://centralbrooklyncsa.wordpress.com/</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-73.947777,40.676388,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Genspace</name>
+    <description><![CDATA[Arts, Culture, Media: http://www.genspace.org<br><a href="http://maps.google.com/maps/place?ftid=0x89c25bb3018160c9:0xe7e082d230f81395&amp;q=33+Flatbush+Avenue,+7th+Floor+Brooklyn,+NY+11215&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=1S1cTqjtLZuuzQTPqpjiBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-73.979858,40.687519,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>El Barrio Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style93</styleUrl>
+    <Point>
+      <coordinates>-73.942070,40.799789,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>LES CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style128</styleUrl>
+    <Point>
+      <coordinates>-73.988121,40.714157,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Penington Friends House</name>
+    <description><![CDATA[<div dir="ltr">Housing: Intentional community</div>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>-73.985718,40.733814,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fidelis Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style207</styleUrl>
+    <Point>
+      <coordinates>-73.942795,40.828911,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Essex Street Market CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style132</styleUrl>
+    <Point>
+      <coordinates>-73.989288,40.723892,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lower East Side Peoples&#39;s Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style248</styleUrl>
+    <ExtendedData>
+      <Data name="PlaceName">
+        <value>Lower East Side People&#39;s Federal Credit Union</value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-73.982788,40.722775,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ditmas Park CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://www.dpcsabrooklyn.com/home.html</div>]]></description>
+    <styleUrl>#style297</styleUrl>
+    <Point>
+      <coordinates>-73.964516,40.640800,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>House of Yes</name>
+    <description><![CDATA[Arts, Media, Culture: <cite><b>houseofyes</b>.org/</cite><span> </span><br><a href="http://maps.google.com/maps/place?ftid=0x89c25eab38289d75:0xdfcaf4f68f418acc&amp;q=house+of+yes&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=2S5cTvbCJISiygWg9qHGBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style153</styleUrl>
+    <Point>
+      <coordinates>-73.935226,40.712360,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Prince George CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style295</styleUrl>
+    <Point>
+      <coordinates>-73.986603,40.743603,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Washington Square CSA</name>
+    <description><![CDATA[<div dir="ltr">CSA</div>]]></description>
+    <styleUrl>#style109</styleUrl>
+    <ExtendedData>
+      <Data name="Address">
+        <value>60 Washington Square South 5th Floor New York, NY 10012-1019</value>
+      </Data>
+      <Data name="Phone">
+        <value></value>
+      </Data>
+      <Data name="Website">
+        <value>washingtonsquarecsa.com</value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-73.997719,40.729900,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Turtle Bay CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style296</styleUrl>
+    <Point>
+      <coordinates>-73.971001,40.753395,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Neighborhood Trust Federal Cu</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style171</styleUrl>
+    <Point>
+      <coordinates>-73.937431,40.848717,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alpha One Labs</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: alphaonelabs.com<br>&nbsp;</div>]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>-73.944435,40.727600,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Surreal Estate</name>
+    <description><![CDATA[Housing: Intentional community<br>13 Thames St, Brooklyn, NY 11206<br>http://surrealestatenyc.wordpress.com<br>]]></description>
+    <styleUrl>#style298</styleUrl>
+    <Point>
+      <coordinates>-73.932579,40.704983,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Beet CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.brooklynbeet.com/about<a href="http://maps.google.com/maps/place?ftid=0x89c25bb283ac5341:0xcd7ed856b1cc18b5&amp;q=30+3rd+Avenue,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=hy9cTtKUM5_uygXTlYXPBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style110</styleUrl>
+    <Point>
+      <coordinates>-73.980583,40.685719,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hester Street Collaborative</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: hesterstreet.org</div>]]></description>
+    <styleUrl>#style281</styleUrl>
+    <Point>
+      <coordinates>-73.993073,40.716747,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NYC Resistor</name>
+    <description><![CDATA[<div dir="ltr">Arts, Media, Culture: nycresistor.com</div>]]></description>
+    <styleUrl>#style145</styleUrl>
+    <Point>
+      <coordinates>-73.981544,40.683651,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>DUMBO/Vinegar Hill CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.dumbocsa.org/faq/<a href="http://maps.google.com/maps/place?ftid=0x89c25a33b18561bb:0x6e4ee6250ed9a74f&amp;q=50+Jay+Street,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=ejBcTtfMBJyozAW1xqjTBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>-73.986816,40.703403,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Emmaus House</name>
+    <description><![CDATA[Housing: Intentional Community<br>160 W 120th St, New York, NY 10027<br>Emmaus is a community of homeless 
+people building new lives through work, supportive community, therapy, 
+personal change, social change, education, etc., while serving others on
+ the street: community kitchen, food pantry, outreach, AIDS education, 
+hospitality, advocating for homeless and oppressed.
+<div>Emmaus communities of and for the poor are in 42 nations.
+</div><div>We seek to be economically self-sufficient.
+</div><div>We seek radical social change--through aggressive nonviolent action--to be a society where resources are more equally shared.
+</div><div>Others join the poor--bringing resources and skills the poor community needs.
+</div><div>We are mostly black, some Hispanics, and a few whites and Asians. We are open to all.<br>http://emmaushouse-harlem.org/aboutus.html<br>&nbsp;</div><br>]]></description>
+    <styleUrl>#style96</styleUrl>
+    <Point>
+      <coordinates>-73.949905,40.805454,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Downtown CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style106</styleUrl>
+    <Point>
+      <coordinates>-73.952827,40.783005,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>West Village CSA</name>
+    <description><![CDATA[119 9th Ave.<br>New York, NY 10011<br><a href="http://maps.google.com/maps/place?ftid=0x89c259bf2b547d41:0xb6590d747d37d086&amp;q=119+9th+Avenue,+New+York,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=TjFcTruMDZWUywXe6fXXBQ&amp;dtab=5" target="_blank">westvillagecsa.org<br></a>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-74.003922,40.743233,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Mark&#39;s Federal Credit Union</name>
+    <description><![CDATA[Banking and Finance: Federal Credit Union]]></description>
+    <styleUrl>#style180</styleUrl>
+    <Point>
+      <coordinates>-73.946823,40.818623,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Flamingo Palace</name>
+    <description><![CDATA[Housing: Intentional Community<br>Brooklyn, NY 11213<br><a href="http://maps.google.com/maps/place?ftid=0x89c25b84635d5c0d:0x5ecae6b59e6875dd&amp;q=Prospect+Place+Brooklyn,+New+York+11213+&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=fTFcTrLzNZGKygTe5OnrBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style244</styleUrl>
+    <Point>
+      <coordinates>-73.936256,40.673565,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Schenck Ave &amp; New Lots Ave</name>
+    <description><![CDATA[Brooklyn, NY 11207<br><a href="http://maps.google.com/maps/place?ftid=0x89c25daafd76bad3:0x45369e6212546a93&amp;q=New+Lots+Avenue+and+Schenck+Avenue,+Brooklyn&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=ejFcToe0NYzMzAW23-XyBg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.664697,-73.886581&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style117</styleUrl>
+    <Point>
+      <coordinates>-73.886581,40.664696,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tide and Current Taxi</name>
+    <description><![CDATA[<div dir="ltr">Transportation: http://www.tideandcurrenttaxi.org/</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-73.968201,40.730087,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>East NY Farms! CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.eastnewyorkfarms.org/<a href="http://maps.google.com/maps/place?ftid=0x89c25daafd76bad3:0x45369e6212546a93&amp;q=New+Lots+Avenue+and+Schenck+Avenue,+Brooklyn&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=ejFcToe0NYzMzAW23-XyBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style165</styleUrl>
+    <Point>
+      <coordinates>-73.886581,40.664696,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The New York Community Trust</name>
+    <description><![CDATA[<div dir="ltr">Advocacy: nycommunitytrust.org</div>]]></description>
+    <styleUrl>#style266</styleUrl>
+    <Point>
+      <coordinates>-73.967903,40.758297,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bronx Overall Economic Development</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: economic development corporation<br><br>http://www.sobro.org/services</div>]]></description>
+    <styleUrl>#style204</styleUrl>
+    <Point>
+      <coordinates>-73.923943,40.826443,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inwood and The Heights Farm Share CSA</name>
+    <description><![CDATA[54 Nagle Ave.<br>New York, NY 10040<br>(212) 569-6200<br>E-mail: <a target="_blank">mnugent@ywashhts.org</a><a href="http://maps.google.com/maps/place?ftid=0x89c2f40474f926e3:0x367def6f2872fe5a&amp;q=54+Nagel+Avenue,+New+York,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=XzJcTsDOEoemygWW-bnLBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style191</styleUrl>
+    <Point>
+      <coordinates>-73.929115,40.860008,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>East Williamsburg CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.eastwilliamsburgcsa.org/About%20HRCSA.html<a href="http://maps.google.com/maps/place?ftid=0x89c25953b81c2151:0x14b19dcb97f98bb1&amp;q=266+Skillman+Avenue,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=cDJcTqzCKofIygWQkrXrBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style136</styleUrl>
+    <Point>
+      <coordinates>-73.940323,40.716282,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Saint Philip&#39;s Church Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style267</styleUrl>
+    <Point>
+      <coordinates>-73.944588,40.814800,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>92Y CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>-73.952827,40.783005,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Flatbush Farm Share </name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://flatbushfarmshare.wordpress.com/</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-73.958885,40.650002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Union Settlement Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style268</styleUrl>
+    <Point>
+      <coordinates>-73.943932,40.789547,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greene Harvest CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://www.greeneharvestcsa.com/</div>]]></description>
+    <styleUrl>#style280</styleUrl>
+    <Point>
+      <coordinates>-73.974274,40.686363,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lenox Hill Neighborhood House CSA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-73.957886,40.766949,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Camba Inc</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: economic development corporation<br>camba.org</div>]]></description>
+    <styleUrl>#style176</styleUrl>
+    <Point>
+      <coordinates>-73.963387,40.649254,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tierra Direct CSA</name>
+    <description><![CDATA[390 Fort Washington Ave<br>New York, NY 10033<br><a href="http://maps.google.com/maps/place?ftid=0x89c2f6a1d290009f:0xd4d472eb7e02ddaa&amp;q=390+Fort+Washington+Avenue,+New+York,+NY&amp;gl=us&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=xTRcTv-zBIHgygWBlbm_Bg&amp;dtab=5" target="_blank">http://tierradirectcsa.wordpress.com/<br></a>]]></description>
+    <styleUrl>#style229</styleUrl>
+    <Point>
+      <coordinates>-73.939056,40.848141,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Greene CSA</name>
+    <description><![CDATA[Food: CSA. Websites: http://www.fortgreenecsa.org/<a href="http://maps.google.com/maps/place?ftid=0x89c25bb7ca017d8b:0xe437c07ad831ef01&amp;q=Myrtle+Avenue+%26+Washington+Park,+Brooklyn,+New+York&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=5DRcTqGPEZT2ygWf2pjDBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-73.973801,40.693256,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Covenant Dominion Fed CU</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style102</styleUrl>
+    <Point>
+      <coordinates>-73.903450,40.829063,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Unite Here Federal Credit Union</name>
+    <description><![CDATA[Banking and Finance: Federal Credit Union]]></description>
+    <styleUrl>#style243</styleUrl>
+    <Point>
+      <coordinates>-73.988403,40.758808,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greenpoint-Williamsburg CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://greenpoint-williamsburgcsa.org/wp/</div>]]></description>
+    <styleUrl>#style169</styleUrl>
+    <Point>
+      <coordinates>-73.952873,40.719818,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>University Settlement FCU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style77</styleUrl>
+    <Point>
+      <coordinates>-73.990639,40.720573,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Washington Heights CSA (181 St.)</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style46</styleUrl>
+    <ExtendedData>
+      <Data name="Phone">
+        <value>(646) 382-9047</value>
+      </Data>
+      <Data name="Website">
+        <value>littleseed.org</value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-73.937775,40.851112,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Covenant Dominion Fed CU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union<br><br>&nbsp;</div>]]></description>
+    <styleUrl>#style253</styleUrl>
+    <Point>
+      <coordinates>-73.903450,40.829063,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Consumers Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Federal Credit Union</div>]]></description>
+    <styleUrl>#style231</styleUrl>
+    <Point>
+      <coordinates>-73.969543,40.580036,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greenpoint-Williamsburg CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://greenpoint-williamsburgcsa.org/wp/times-locations/<a href="http://maps.google.com/maps/place?ftid=0x89c2594ed50f3fd9:0xc2b7a66510fcd597&amp;q=129+Russell+St,+Brooklyn,+New+York&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=XjZcTqTOCYvCzQWgy7SpBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style119</styleUrl>
+    <Point>
+      <coordinates>-73.944672,40.724815,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NYC Fair Trade Coalition</name>
+    <description><![CDATA[Advocacy and Organizing: Fair trade<br>http://nycfairtradecoalition.org<br><br>]]></description>
+    <styleUrl>#style166</styleUrl>
+    <Point>
+      <coordinates>-74.040985,40.693069,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CSA at MSC</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style275</styleUrl>
+    <Point>
+      <coordinates>-73.970703,40.791660,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>QUORUM (Queers Organizing for Racial Unity and Mobilization)</name>
+    <description><![CDATA[<div dir="ltr">Advocacy and Organizing: Queer economies<br>http://quorumnyc.org</div>]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>-73.971893,40.661304,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>First American International Bank</name>
+    <description><![CDATA[Banking and Finance: Economic Development Corporation<br>https://www.faib.com/<br><a href="http://maps.google.com/maps/place?ftid=0x89c2454a9db423e1:0x9023fc2d0edb5b57&amp;q=5503+8th+Avenue+brooklyn&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=IjdcToSdOoSQyAX4xpXJBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style103</styleUrl>
+    <Point>
+      <coordinates>-74.006668,40.638134,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brooklyn Bridge Community Boathouse</name>
+    <description><![CDATA[<div dir="ltr">Recreation: Collectively managed rowing club<br>http://www.bbpboathouse.org/</div>]]></description>
+    <styleUrl>#style99</styleUrl>
+    <Point>
+      <coordinates>-73.996269,40.703026,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Long Island City Community Boathouse</name>
+    <description><![CDATA[<div dir="ltr">Recreation: Collectively managed rowing club<br>http://www.licboathouse.org/</div>]]></description>
+    <styleUrl>#style184</styleUrl>
+    <Point>
+      <coordinates>-73.955154,40.747841,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greenwood Heights CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.greenwoodheightscsa.com/<br>]]></description>
+    <styleUrl>#style210</styleUrl>
+    <Point>
+      <coordinates>-73.989471,40.661697,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>B.S. and C.P. Hospitals Employees Federal Credit Union</name>
+    <description><![CDATA[Banking and Finance: Federal Credit Union]]></description>
+    <styleUrl>#style293</styleUrl>
+    <Point>
+      <coordinates>-73.842606,40.846149,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gowanus Dredgers Canal Club</name>
+    <description><![CDATA[<div dir="ltr">Recreation: canoeing<br>http://www.gowanuscanal.org</div>]]></description>
+    <styleUrl>#style193</styleUrl>
+    <Point>
+      <coordinates>-73.991119,40.675884,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Regional Economic Development</name>
+    <description><![CDATA[Banking and Finance: Economic Development Corporation<br><a href="http://maps.google.com/maps/place?ftid=0x89c25a491f17ec49:0x37b5c3c734d408c4&amp;q=175+Remsen+Street,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=rjlcTvXpMqi6yQXwn8XMBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style167</styleUrl>
+    <Point>
+      <coordinates>-73.991547,40.693405,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kayak Staten Island</name>
+    <description><![CDATA[<div dir="ltr">Recreation: community canoeing<br>http://www.kayakstatenisland.org</div>]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>-74.056480,40.595673,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Restoration Capital Fund, Inc.</name>
+    <description><![CDATA[Banking and Finance: Economic Development Corporation<a href="http://maps.google.com/maps/place?ftid=0x89c25b857944e063:0x25cca64a00d6cd71&amp;q=1368+Fulton+Street+Brooklyn,+NY+11216-&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=WDpcTp3JDI_8zQTExbiwBw&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style206</styleUrl>
+    <Point>
+      <coordinates>-73.945969,40.680187,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sephardic Angel Fund</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Economic Development Corporation</div>]]></description>
+    <styleUrl>#style161</styleUrl>
+    <Point>
+      <coordinates>-73.976257,40.604755,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sebagoe Canoe Club</name>
+    <description><![CDATA[<div dir="ltr">Recreation: Community canoeing<br>http://www.sebagocanoeclub.org</div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-73.892670,40.630371,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Augustine Presbyterian Federal Credit Union</name>
+    <description><![CDATA[Banking and Finance: Federal Credit Union]]></description>
+    <styleUrl>#style262</styleUrl>
+    <Point>
+      <coordinates>-73.899734,40.824024,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New York City Swappers</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: Clothing Swap<br>http://www.meetup.com/thenewyorkcityswappers/</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-74.037636,40.690399,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Time Interchange New York (TINY)</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Time bank<br>https://timeinterchange.wordpress.com/</div>]]></description>
+    <styleUrl>#style69</styleUrl>
+    <Point>
+      <coordinates>-74.030342,40.694370,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NYC Service</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Time bank<br>http://www.nycservice.org</div>]]></description>
+    <styleUrl>#style287</styleUrl>
+    <Point>
+      <coordinates>-74.028282,40.695412,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Five Boroughs Clothing Swap</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: Clothing Swap<br>http://www.meetup.com/fiveboroughsclothingswap/</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-74.035149,40.691116,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Park Slope CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.parkslopecsa.org/<a href="http://maps.google.com/maps/place?ftid=0x89c25a5534d7cc91:0xfa0d1f045d43531&amp;q=Union+St+at+4th+Avenue,+Brooklyn,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=pENcTu-1E5TKzgT7xsD2Bg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style194</styleUrl>
+    <Point>
+      <coordinates>-73.983116,40.677437,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Prospect Heights CSA</name>
+    <description><![CDATA[<a href="http://maps.google.com/maps/place?ftid=0x89c25ba6ac1b8103:0x447d3f489f95289a&amp;q=80+Underhill+Avenue,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=eERcTvCPFqrWyASp-dW4Bw&amp;dtab=5" target="_blank">Food: CSA. Website: http://prospectheightscsa.org/<br></a>]]></description>
+    <styleUrl>#style172</styleUrl>
+    <Point>
+      <coordinates>-73.965714,40.678139,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Red Hook CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://redhookcsa.com/<br>&nbsp;</div>]]></description>
+    <styleUrl>#style71</styleUrl>
+    <Point>
+      <coordinates>-74.009377,40.672062,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Southside CSA</name>
+    <description><![CDATA[<a href="http://maps.google.com/maps/place?ftid=0x89c25bd8a3aaa635:0x55aac24618970ea4&amp;q=48+South+4th+Street,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=c0ZcTufkMJDkygTC15HpBg&amp;dtab=5" target="_blank">Food: CSA. Website: http://southsidecsa.wordpress.com/distribution/<br></a>]]></description>
+    <styleUrl>#style201</styleUrl>
+    <Point>
+      <coordinates>-73.966652,40.712780,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sunset Park CSA</name>
+    <description><![CDATA[<a href="http://maps.google.com/maps/place?ftid=0x89c25ab849b3a0b9:0xb7ce1d5510e0a5bd&amp;q=352+42nd+Street,+Brooklyn,+New+York,+NY&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=lkdcToL1FKi-zgSmuuHhBg&amp;dtab=5" target="_blank">Food: CSA. Website: http://www.sunsetparkcsa.org/<br></a>]]></description>
+    <styleUrl>#style85</styleUrl>
+    <Point>
+      <coordinates>-74.008911,40.651329,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bay Ridge Food Co-op</name>
+    <description><![CDATA[<div dir="ltr">Food: Consumer cooperative</div>]]></description>
+    <styleUrl>#style148</styleUrl>
+    <Point>
+      <coordinates>-74.035980,40.617115,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greene Hill Food Coop</name>
+    <description><![CDATA[Food: Consumer cooperatiive, buying club<br>Brooklyn, NY 11238<br>http://www.greenehillfoodcoop.com<br><a href="http://maps.google.com/maps/place?ftid=0x89c25ba2cafc2b91:0x624d72c0c4dd03e2&amp;q=18+Putnam+Avenue++Brooklyn,+NY+11238&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=sWleTpXFC4qwzgSf7NDDBg&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style299</styleUrl>
+    <Point>
+      <coordinates>-73.961136,40.682655,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Queens Harvest Food Coop</name>
+    <description><![CDATA[Food: consumer cooperative<br>Looking for a permanent address.<br>http://www.queensharvestcoop.com<br>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-73.910522,40.760780,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-74.012596,40.706444,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-73.993240,40.735340,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style101</styleUrl>
+    <Point>
+      <coordinates>-73.994148,40.745541,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-73.982674,40.738903,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank Of New York: 54th Street Branch</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style245</styleUrl>
+    <Point>
+      <coordinates>-73.982025,40.765354,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style151</styleUrl>
+    <Point>
+      <coordinates>-73.957809,40.814865,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style97</styleUrl>
+    <Point>
+      <coordinates>-73.947678,40.764175,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style300</styleUrl>
+    <Point>
+      <coordinates>-73.904930,40.700294,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style163</styleUrl>
+    <Point>
+      <coordinates>-73.964066,40.625118,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style179</styleUrl>
+    <Point>
+      <coordinates>-73.901825,40.722775,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style156</styleUrl>
+    <Point>
+      <coordinates>-73.810074,40.732922,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style82</styleUrl>
+    <Point>
+      <coordinates>-73.887772,40.749634,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style265</styleUrl>
+    <Point>
+      <coordinates>-73.821350,40.825699,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>-73.828247,40.869568,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style105</styleUrl>
+    <Point>
+      <coordinates>-73.867546,40.857140,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com</div>]]></description>
+    <styleUrl>#style94</styleUrl>
+    <Point>
+      <coordinates>-73.947678,40.764175,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com<br>94 E Burnside Ave, Bronx, NY 10453<br>]]></description>
+    <styleUrl>#style240</styleUrl>
+    <Point>
+      <coordinates>-73.905708,40.853172,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Bank</name>
+    <description><![CDATA[Banking and Finance: Union bank with socially responsible investment practices<br>www.amalgamatedbank.com<br><br><a href="http://maps.google.com/maps/place?ftid=0x89c25b9a401e06c5:0x25d9f6c9b6197992&amp;q=amalgamated+bank,+1212+fulton+st,+brooklyn&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=w55eTrL-D4LMyAWyxNSqAQ&amp;dtab=5" target="_blank"><br></a>]]></description>
+    <styleUrl>#style246</styleUrl>
+    <Point>
+      <coordinates>-73.952080,40.680267,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Astoria CSA</name>
+    <description><![CDATA[Food: CSA. Website is currently down, 8/31/11.<br>]]></description>
+    <styleUrl>#style216</styleUrl>
+    <Point>
+      <coordinates>-73.925301,40.756638,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Familia Verde, 2007 Mapes Ave</name>
+    <description><![CDATA[Bronx, NY 10460<br><a href="http://maps.google.com/maps/place?ftid=0x89c2f48a271c4d11:0xddd8042879ecc417&amp;q=2007+Mapes+Avenue,+Bronx,+NY+10460&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=KwFfTtjNKKG-ygSGxYzcBg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.844918,-73.887014&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-73.887016,40.844917,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Harvest Astoria CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.harvestastoria.com/<br>]]></description>
+    <styleUrl>#style147</styleUrl>
+    <Point>
+      <coordinates>-73.925583,40.767860,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hellgate CSA</name>
+    <description><![CDATA[Food: CSA. Pickup located at Website: http://www.hellgatecsa.net/<br><br>You pick up your vegetable share weekly, on Tuesdays, between 5:30 - 7:30 p.m. at <a href="http://www.fsorganic.com/" target="_blank">Fresh Start Organic Market</a> (29-13 23rd Avenue) just west of 31st Street (walk through the store to the patio in the rear).<br>]]></description>
+    <styleUrl>#style185</styleUrl>
+    <Point>
+      <coordinates>-73.913345,40.774879,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Douglaston CSA</name>
+    <description><![CDATA[Food: CSA. Website: none. Call <span dir="ltr"><span dir="ltr" title="Call this phone number in United States of America with Skype: +17182294000"><span><span>718-229-4000</span></span><span></span></span> <span></span></span>x212 for details.<br>]]></description>
+    <styleUrl>#style129</styleUrl>
+    <Point>
+      <coordinates>-73.753601,40.762028,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forest Hills CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://foresthillscsa.com/. Located at Chuch-in-the-Gardens in Forest Hills.&nbsp; <br>]]></description>
+    <styleUrl>#style188</styleUrl>
+    <Point>
+      <coordinates>-73.840797,40.717991,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forest Hills Tuv Ha&#39;Aretz CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.fhjc.org/tuv.html. For info, call: 718-263-7000x250<br>]]></description>
+    <styleUrl>#style269</styleUrl>
+    <Point>
+      <coordinates>-73.847466,40.721725,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Glendale CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.glendalecsa.com/<br>]]></description>
+    <styleUrl>#style291</styleUrl>
+    <Point>
+      <coordinates>-73.863541,40.709351,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Farmspot CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.farmspot.org/ Located at St. Mark's Church.<br>]]></description>
+    <styleUrl>#style159</styleUrl>
+    <Point>
+      <coordinates>-73.885033,40.753685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tierra a Mesa CSA</name>
+    <description><![CDATA[Food: CSA. Website: <span></span><a target="_blank">tierraAmesa@gmail.com</a>]]></description>
+    <styleUrl>#style123</styleUrl>
+    <Point>
+      <coordinates>-73.876221,40.748997,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Long Island City CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://liccsa.wordpress.com/<br>]]></description>
+    <styleUrl>#style234</styleUrl>
+    <Point>
+      <coordinates>-73.927338,40.747311,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ozone Park CSA</name>
+    <description><![CDATA[Food: CSA. For more information, write to ozoneparkcsa@gmail.com. Website: http://ozoneparkcsa.wordpress.com/<br><br>]]></description>
+    <styleUrl>#style79</styleUrl>
+    <Point>
+      <coordinates>-73.850731,40.679405,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sunnyside CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://sunnysidecsa.com/<br>]]></description>
+    <styleUrl>#style140</styleUrl>
+    <Point>
+      <coordinates>-73.927139,40.739185,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Woodside CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://woodsidecsa.blogspot.com/<br>]]></description>
+    <styleUrl>#style186</styleUrl>
+    <Point>
+      <coordinates>-73.892464,40.742382,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Staten Island CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://statenislandcsa.org/index.htm<br>]]></description>
+    <styleUrl>#style284</styleUrl>
+    <Point>
+      <coordinates>-74.092522,40.644360,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bronx Holy Family CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: holyfamilycsa.org/</div>]]></description>
+    <styleUrl>#style124</styleUrl>
+    <Point>
+      <coordinates>-73.851112,40.829445,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>City Island CSA</name>
+    <description><![CDATA[Food: CSA.&nbsp; Website: http://www.justfood.org/csaloc/bronx/city-island-csa<br>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-73.787498,40.846821,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Norwood CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.norwoodfoodcoop.org/. Accepting EBT/SNAP<br>]]></description>
+    <styleUrl>#style95</styleUrl>
+    <Point>
+      <coordinates>-73.884064,40.870827,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Turf CSA</name>
+    <description><![CDATA[Food: CSA. Website: <br>http://turfnews.blogspot.com/]]></description>
+    <styleUrl>#style241</styleUrl>
+    <Point>
+      <coordinates>-73.860558,40.834663,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sisters Hill Farm CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. mgaristo@scny.org<br>(718) 549-9200 x257 </div>]]></description>
+    <styleUrl>#style164</styleUrl>
+    <Point>
+      <coordinates>-73.906609,40.911983,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Riverdale CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://hawthornevalleyfarm.org/csa/csa.htm<br>Biodynamic farm - Hawthorne Valley Farm<br>]]></description>
+    <styleUrl>#style87</styleUrl>
+    <Point>
+      <coordinates>-73.903862,40.903484,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Bronx CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.southbronxcsa.org/<br>]]></description>
+    <styleUrl>#style273</styleUrl>
+    <Point>
+      <coordinates>-73.918053,40.809574,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Van Cortlandt CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://sites.google.com/site/vancortlandtcsa/<br>]]></description>
+    <styleUrl>#style68</styleUrl>
+    <Point>
+      <coordinates>-73.892174,40.884533,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chelsea CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://www.chelseacsa.org/</div>]]></description>
+    <styleUrl>#style78</styleUrl>
+    <Point>
+      <coordinates>-74.001251,40.749237,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Project Harmony/Kitchen Table CSA</name>
+    <description><![CDATA[<div dir="ltr">Food: CSA. Website: http://thekitchentablenyc.wordpress.com/the-csa/</div>]]></description>
+    <styleUrl>#style278</styleUrl>
+    <Point>
+      <coordinates>-73.936821,40.799114,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sixth Street CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://www.sixthstreetcenter.org/csa/<br>]]></description>
+    <styleUrl>#style225</styleUrl>
+    <Point>
+      <coordinates>-73.980186,40.723816,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hell&#39;s Kitchen CSA</name>
+    <description><![CDATA[Food: CSA. Website: http://katchkiefarm.com/harvest-our-bounty/csa/<br>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>-73.989792,40.757229,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bridge Street AME Church FCU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style173</styleUrl>
+    <Point>
+      <coordinates>-73.932220,40.685001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Consumers Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style294</styleUrl>
+    <Point>
+      <coordinates>-73.969543,40.580036,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>All Souls Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style86</styleUrl>
+    <Point>
+      <coordinates>-73.952148,40.801685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Church-The Master FCU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style271</styleUrl>
+    <Point>
+      <coordinates>-73.955559,40.809170,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fidelis Federal Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style202</styleUrl>
+    <Point>
+      <coordinates>-73.942795,40.828911,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Neighborhood Trust Federal Cu</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style154</styleUrl>
+    <Point>
+      <coordinates>-73.937431,40.848717,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Union Settlement FCU</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit union</div>]]></description>
+    <styleUrl>#style141</styleUrl>
+    <Point>
+      <coordinates>-73.943932,40.789547,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Structured Employment Economic</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: Community development financial institution</div>]]></description>
+    <styleUrl>#style289</styleUrl>
+    <Point>
+      <coordinates>-73.989632,40.739777,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Development Trust</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style277</styleUrl>
+    <Point>
+      <coordinates>-73.987564,40.751064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Women&#39;s Venture Fund</name>
+    <description><![CDATA[<div dir="ltr">Banking and finance: community development financial institution</div>]]></description>
+    <styleUrl>#style214</styleUrl>
+    <Point>
+      <coordinates>-73.978546,40.723312,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dressmakers Credit Union</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: credit union</div>]]></description>
+    <styleUrl>#style242</styleUrl>
+    <Point>
+      <coordinates>-73.994148,40.745541,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>AAFE Community Development Fund</name>
+    <description><![CDATA[Banking and Finance: community development fund<br>111 Division St, New York, NY 10002<br>]]></description>
+    <styleUrl>#style107</styleUrl>
+    <Point>
+      <coordinates>-73.992409,40.714298,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Accion USA</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution<br><br>http://www.accionusa.org/home/small-business-loans/about-us/where-we-lend/new-york--new-jersey.aspx</div>]]></description>
+    <styleUrl>#style290</styleUrl>
+    <Point>
+      <coordinates>-73.985527,40.740025,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Development Trust</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style196</styleUrl>
+    <Point>
+      <coordinates>-73.987564,40.751064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Development Venture</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style125</styleUrl>
+    <Point>
+      <coordinates>-73.997879,40.753117,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Preservation Corporation</name>
+    <description><![CDATA[<div dir="ltr">Baking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style138</styleUrl>
+    <Point>
+      <coordinates>-73.984962,40.743729,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Corporation for Supportive Housing</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-74.012840,40.706161,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>East Harlem Business Capital</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style83</styleUrl>
+    <Point>
+      <coordinates>-73.935570,40.796288,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Community Partnership Development</name>
+    <description><![CDATA[Banking and Finance: community development financial institution<br><br>450 7th Ave, Manhattan, NY 10123<br>]]></description>
+    <styleUrl>#style139</styleUrl>
+    <Point>
+      <coordinates>-73.990578,40.751297,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fund For the City of New York</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-74.004829,40.724018,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Grameen America LLC</name>
+    <description><![CDATA[Banking and Finance: community development financial institution<br>1460 Broadway, Manhattan, NY 10036<br><br>]]></description>
+    <styleUrl>#style146</styleUrl>
+    <Point>
+      <coordinates>-73.986221,40.755112,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Grow America Fund Inc</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution<br>http://www.nationaldevelopmentcouncil.org/index.php/site/programs/category/small_business_lending/</div>]]></description>
+    <styleUrl>#style208</styleUrl>
+    <Point>
+      <coordinates>-73.978333,40.752506,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Local Initatives Support Corporation</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style301</styleUrl>
+    <Point>
+      <coordinates>-73.988884,40.753044,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>National Federation Community Development Credit Unions</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development credit unions<br>http://www.natfed.org/i4a/pages/index.cfm?pageid=1</div>]]></description>
+    <styleUrl>#style232</styleUrl>
+    <Point>
+      <coordinates>-74.005890,40.707500,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Neighborhood Housing Services--NYC</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution<br>http://www.nhsnyc.org/</div>]]></description>
+    <styleUrl>#style144</styleUrl>
+    <Point>
+      <coordinates>-73.992905,40.754028,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New York City Financial Network</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style133</styleUrl>
+    <Point>
+      <coordinates>-73.991547,40.693405,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nonprofit Finance Fund</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style279</styleUrl>
+    <Point>
+      <coordinates>-73.986320,40.750847,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parodneck Foundation-Self-Help</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style211</styleUrl>
+    <Point>
+      <coordinates>-74.004829,40.724018,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Primary Care Development Corporation</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style235</styleUrl>
+    <Point>
+      <coordinates>-74.010712,40.710266,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Project Enterprise Inc</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style217</styleUrl>
+    <Point>
+      <coordinates>-73.947685,40.808285,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Renaissance Economic Development Corporation</name>
+    <description><![CDATA[Banking and Finance: community development financial institution<br>http://www.renaissance-ny.org/<br>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-73.992287,40.714306,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Seedco</name>
+    <description><![CDATA[Banking and Finance: community development financial institution<br>915 Broadway, New York, NY 10010<br>http://www.renaissance-ny.org/<br>]]></description>
+    <styleUrl>#style111</styleUrl>
+    <Point>
+      <coordinates>-73.990005,40.739841,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Staten Island Economic Development Corporation</name>
+    <description><![CDATA[Banking and Finance: community development financial institution<br>900 South Ave, Staten Island, NY 10314<br>http://www.siedc.org/<br>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-74.172127,40.616810,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greater Jamaica Development Corporation</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: community development financial institution</div>]]></description>
+    <styleUrl>#style261</styleUrl>
+    <Point>
+      <coordinates>-73.799438,40.705135,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Visiting Nurse Services of New York Time Bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and Finance: time bank<br>http://www.vnsny.org/community/in-the-community/community-connections-timebank/frequently-asked-questions/</div>]]></description>
+    <styleUrl>#style108</styleUrl>
+    <Point>
+      <coordinates>-73.988037,40.748135,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>e-flux Time bank</name>
+    <description><![CDATA[<div dir="ltr">Banking and finance: time bank<br>http://www.e-flux.com/timebank/</div>]]></description>
+    <styleUrl>#style73</styleUrl>
+    <Point>
+      <coordinates>-74.046478,40.662930,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Housing Corporation</name>
+    <description><![CDATA[<div dir="ltr">Housing: cooperative</div>]]></description>
+    <styleUrl>#style219</styleUrl>
+    <Point>
+      <coordinates>-73.891678,40.885017,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cooperative Village</name>
+    <description><![CDATA[<div dir="ltr">Housing: cooperative apartment complex</div>]]></description>
+    <styleUrl>#style150</styleUrl>
+    <Point>
+      <coordinates>-73.978333,40.712883,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Penn South Co-Op</name>
+    <description><![CDATA[<div dir="ltr">Housing: cooperative apartments</div>]]></description>
+    <styleUrl>#style100</styleUrl>
+    <Point>
+      <coordinates>-73.997009,40.747173,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rochdale Village, </name>
+    <description><![CDATA[Housing: cooperative apartments<br>]]></description>
+    <styleUrl>#style197</styleUrl>
+    <Point>
+      <coordinates>-73.773888,40.676388,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Amalgamated Warbasse Houses Incorporated</name>
+    <description><![CDATA[<div dir="ltr">Housing: cooperative apartments</div>]]></description>
+    <styleUrl>#style192</styleUrl>
+    <Point>
+      <coordinates>-73.971481,40.581051,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Co-op City, Bronx</name>
+    <description><![CDATA[Housing: cooperative apartments<br>]]></description>
+    <styleUrl>#style258</styleUrl>
+    <Point>
+      <coordinates>-73.829445,40.873890,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Morningside Gardens</name>
+    <description><![CDATA[Housing: cooperative apartments<br>]]></description>
+    <styleUrl>#style285</styleUrl>
+    <Point>
+      <coordinates>-73.959579,40.813740,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Southbridge Towers</name>
+    <description><![CDATA[<div dir="ltr">Housing: cooperative apartments</div>]]></description>
+    <styleUrl>#style91</styleUrl>
+    <Point>
+      <coordinates>-74.003433,40.709202,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Confuscious Plaza Apartments</name>
+    <description><![CDATA[<div dir="ltr">Housing: cooperative</div>]]></description>
+    <styleUrl>#style157</styleUrl>
+    <Point>
+      <coordinates>-73.997025,40.714539,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Every Thing Goes Furniture</name>
+    <description><![CDATA[<div dir="ltr">Retail and services: cooperative recycled furniture store</div>]]></description>
+    <styleUrl>#style233</styleUrl>
+    <Point>
+      <coordinates>-74.081314,40.637333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Black Women&#39;s Blueprint</name>
+    <description><![CDATA[Brooklyn, NY 11217<br><a href="http://maps.google.com/maps/place?ftid=0x89c25a4d79e3c2ad:0xdf816f539b51e0e9&amp;q=388+Atlantic+Ave,+Brooklyn,+NY+11217&amp;hl=en&amp;authuser=0&amp;cad=src:ppiwlink&amp;ei=6MNyTr6hI5myyAXkiJWHCQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.686875,-73.985640&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style72</styleUrl>
+    <Point>
+      <coordinates>-73.985641,40.686874,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>4th Street Food Co-op</name>
+    <description><![CDATA[<div dir="ltr">Food: Co-op</div>]]></description>
+    <styleUrl>#style158</styleUrl>
+    <Point>
+      <coordinates>-73.990738,40.726643,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>LaunchPad and Brooklyn Yoga Cooperative</name>
+    <description><![CDATA[<div dir="ltr">Arts and Media, Retail and Services: Community arts space, home of Brooklyn Yoga Cooperative http://brooklynyogacooperative.com/</div>]]></description>
+    <styleUrl>#style203</styleUrl>
+    <Point>
+      <coordinates>-73.956802,40.673843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Palante Technology</name>
+    <description><![CDATA[Retail and Services: Worker co-operative web development company, http://palantetech.com/<br>Brooklyn, NY<br><a href="http://maps.google.com/maps/place?ftid=0x89c25bf5e6223537:0x67fb2bedfdb81fd8&amp;q=Fulton+St,+Brooklyn&amp;hl=en&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=kO5QT-LfH8qo8gbdy_nrCQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.679229,-73.928027&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style183</styleUrl>
+    <Point>
+      <coordinates>-73.928024,40.679230,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Park Slope Childcare Collective</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: Collectively managed child care company<br>http://psccc.org/</div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-73.974510,40.676506,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maple Street School</name>
+    <description><![CDATA[<div dir="ltr">Arts, Culture, and Media: Cooperatively managed (by parents) preschool</div>]]></description>
+    <styleUrl>#style152</styleUrl>
+    <Point>
+      <coordinates>-73.962799,40.660816,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>OccuCopy</name>
+    <description><![CDATA[Retail and Services: Worker co-op printing company<br>Brooklyn, NY 11217<br><a href="http://maps.google.com/maps/place?ftid=0x89c25a4d79e3c2ad:0xafce0619176c030f&amp;q=388+Atlantic+Avenue&amp;hl=en&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=1fBQT5rdEoWx8gaem8jpCQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.686875,-73.985640&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style121</styleUrl>
+    <Point>
+      <coordinates>-73.985641,40.686874,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>OWS Screenprinting Co-op</name>
+    <description><![CDATA[<div dir="ltr">Retail and Services: Worker co-op screen printing services</div>]]></description>
+    <styleUrl>#style168</styleUrl>
+    <Point>
+      <coordinates>-74.011192,40.709290,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Golden Steps</name>
+    <description><![CDATA[Retail and Services: Worker Co-op elder care<br><br>Brooklyn, NY 11232<br><a href="http://maps.google.com/maps/place?ftid=0x89c25ac70af45b0d:0xf5ace95d6e68bf56&amp;q=443+39th+St+%23+3&amp;hl=en&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=pRpmT938LYLP8wbHvMXjDQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.651981,-74.004872&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style155</styleUrl>
+    <Point>
+      <coordinates>-74.004875,40.651981,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beyond Care</name>
+    <description><![CDATA[Retail and Services: Worker co-op childcare<br>www.beyondcare.coop<br><br>Brooklyn, NY 11232<br><a href="http://maps.google.com/maps/place?ftid=0x89c25ac70af45b0d:0xf5ace95d6e68bf56&amp;q=443+39th+St+%23+3&amp;hl=en&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=pRpmT938LYLP8wbHvMXjDQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.651981,-74.004872&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-74.004875,40.651981,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Color Me!</name>
+    <description><![CDATA[Retail and services: Worker co-op painting<br>www.colorme.coop<br>Brooklyn, NY 11232<br><a href="http://maps.google.com/maps/place?ftid=0x89c25ac70af45b0d:0xf5ace95d6e68bf56&amp;q=443+39th+St+%23+3&amp;hl=en&amp;authuser=0&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=pRpmT938LYLP8wbHvMXjDQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=40.651981,-74.004872&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style113</styleUrl>
+    <Point>
+      <coordinates>-74.004875,40.651981,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
