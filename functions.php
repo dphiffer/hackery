@@ -28,6 +28,7 @@ function hackery_setup_front_name() {
 	}
 }
 hackery_setup_front_name();
+add_action( 'after_switch_theme', 'hackery_setup_front_name' );
 
 function hackery_update_page_on_front( $page_on_front ) {
 	global $wp_rewrite;
