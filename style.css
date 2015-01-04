@@ -1,0 +1,443 @@
+/*
+
+Theme Name: Hackery
+Author: Dan Phiffer
+Author URI: https://phiffer.org/
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	quotes: none;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+
+body {
+	font: 14px/20px "open sans", sans-serif;
+	margin: 16px;
+	background: #ffe;
+}
+
+a {
+	color: #FC5438;
+	background-color: transparent;
+	text-decoration: none;
+	transition: color 0.5s ease-out, background-color 0.5s ease-out;
+}
+
+a:hover {
+	color: #000;
+	background-color: #ffeb99;
+	transition: color 0.25s ease-out, background-color 0.25s ease-out;
+}
+
+.dark a {
+	color: #fc0;
+}
+
+.dark a:hover {
+	color: #ffeb99;
+	background-color: #444;
+}
+
+p {
+	margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-top: 2em;
+	font-weight: bold;
+}
+
+figure {
+	margin: 1.5em 0 1em 0;
+}
+
+iframe {
+	background: #000;
+}
+
+.content > figure:first-child {
+	margin-top: 0;
+}
+
+figcaption,
+.wp-caption-text {
+	color: #808080;
+	font-size: 0.875em;
+	line-height: 1.5em;
+	margin-top: 0.75em;
+}
+
+blockquote {
+	margin-left: 1.5em;
+}
+
+dt {
+	margin-top: 0.75em;
+}
+
+dd {
+	margin-left: 2em;
+}
+
+.alignleft, .alignright {
+	margin-top: 0.25em;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.breadcrumbs,
+.post-edit-link {
+	color: #808080;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.post-edit-link:hover {
+	color: #000;
+}
+
+section .breadcrumbs a {
+	color: #808080;
+}
+
+.breadcrumbs h2 {
+	display: inline;
+}
+
+.breadcrumbs h2 a {
+	color: #FC5438;
+}
+
+.dark .breadcrumbs h2 a {
+	color: #fc0;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs h2 a:hover {
+	color: #000;
+}
+
+.dark .breadcrumbs a:hover,
+.dark .breadcrumbs h2 a:hover {
+	color: #ffeb99;
+}
+
+.post-edit-link {
+	position: absolute;
+	top: 16px;
+	right: 11px;
+	padding: 0 5px;
+}
+
+section {
+	width: 100%;
+	position: relative;
+}
+
+body.page-template-page-stack {
+	margin: 0;
+}
+
+body.page-template-page-stack section {
+	padding: 16px;
+	border-top: 3px solid #fc5438;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center center;
+}
+
+section section,
+body.page-template-page-stack section section {
+	padding: 0;
+	border-top: 0;
+	min-height: 1px;
+}
+
+section section .container {
+	width: auto;
+}
+
+section section .content {
+	margin: 0;
+	/* overflow: hidden; */
+}
+
+section section .breadcrumbs,
+.breadcrumbs .orig {
+	display: none;
+}
+
+.page-menu .menu a.selected {
+	font-weight: bold;
+	color: #fc0;
+}
+
+h1, h3,
+.menu {
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+.content {
+	margin: 64px 0;
+}
+
+.gallery-item {
+	display: inline-block;
+	margin-top: 16px;
+	width: 100%;
+	vertical-align: top;
+}
+
+.gallery-item img {
+	max-width: 100%;
+	height: auto;
+}
+
+.dark {
+  border-color: #fc0 !important;
+  color: #dedede;
+  background: #222;
+}
+
+.dark h1,
+.dark .menu a {
+  color: #fff;
+}
+
+.dark.image h1,
+.dark.image .menu a {
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.dark h1 a {
+  color: #fc0;
+}
+
+.dark .menu a:hover {
+  color: #ffeb99;
+}
+
+.dark h1 a:hover {
+  color: #fff;
+  background: transparent;
+}
+
+.page-menu .menu {
+	float: left;
+	width: 316px;
+	margin: 64px 0;
+}
+
+.page-menu .content {
+	float: right;
+}
+
+.menu .secondary {
+  margin-top: 1em;
+}
+
+.dark .menu .secondary a {
+  color: #ccc;
+}
+
+.dark .menu .secondary a:hover {
+  color: #ffeb99;
+}
+
+.page-menu > .container > .content {
+	overflow: hidden;
+}
+
+.page-menu .content {
+	position: relative;
+}
+
+.page-menu .slider {
+	position: absolute;
+}
+
+.page-menu .slider .subpage {
+	float: left;
+	width: 648px;
+	margin-right: 16px;
+}
+
+.page-gallery > .container > .content {
+	overflow: hidden;
+}
+
+.page-gallery .content {
+	position: relative;
+}
+
+.page-gallery .slider {
+	position: absolute;
+}
+
+.page-gallery .slider .subpage {
+	float: left;
+	width: 980px;
+	margin-right: 16px;
+}
+
+@media (min-width: 349px) {
+	
+	.gallery {
+		margin-left: -16px;
+	}
+	
+	.gallery-item {
+		width: calc(50% - 16px);
+		margin-left: 16px;
+	}
+	
+}
+
+@media (min-width: 681px) {
+	
+	body {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	
+	.content {
+		width: 648px;
+		margin: 64px auto;
+	}
+	
+	.page-full-width > .container > .content {
+		width: 100%;
+	}
+	
+	.gallery-item {
+		width: calc(100% / 3 - 16px);
+	}
+	
+	.alignright {
+		width: calc(50% - 16px);
+		margin-left: 16px;
+	}
+	
+}
+
+@media (min-width: 1013px) {
+	
+	.container {
+		width: 980px;
+		margin: 0 auto;
+	}
+	
+	.content {
+		margin: 64px 0;
+	}
+	
+	.alignright {
+		margin-right: -316px;
+	}
+	
+	figure.size-medium {
+		width: 482px;
+	}
+	
+}
