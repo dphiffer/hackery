@@ -28,7 +28,6 @@ function hackery_setup_front_name() {
 	}
 }
 hackery_setup_front_name();
-add_action( 'after_switch_theme', 'hackery_setup_front_name' );
 
 function hackery_update_page_on_front( $page_on_front ) {
 	global $wp_rewrite;
@@ -43,6 +42,7 @@ function hackery_update_page_on_front( $page_on_front ) {
 	return $page_on_front;
 }
 add_filter( 'pre_update_option_page_on_front', 'hackery_update_page_on_front' );
+add_action( 'after_switch_theme', 'hackery_update_page_on_front' );
 
 function hackery_save_post( $postid, $post ) {
 	global $wp_rewrite;

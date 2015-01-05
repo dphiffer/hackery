@@ -84,6 +84,7 @@ function subpageSelect(basePage, path) {
 			success: function(html) {
 				$subpage.html(html);
 				$subpage.addClass('loaded');
+				$subpage.fitVids();
 				subpageShow(basePage, $subpage);
 			}
 		});
@@ -98,16 +99,18 @@ function subpageShow(basePage, $subpage) {
   	height = $subpage.height();
   	$subpage.data('height', height);
   }
-  subpageBreadcrumbs(basePage, $subpage);
   $slider.animate({
 		left: -$subpage.position().left
 	}, 750, 'easeOutQuint');
 	$content.css('height', height);
+	if ($(basePage).hasClass('page-gallery')) {
+		subpageBreadcrumbs(basePage, $subpage);
+	}
 }
 
 function subpageBreadcrumbs(basePage, $subpage) {
 	var html = $subpage.find('.breadcrumbs').html();
-  var $breadcrumbs = $(basePage).find('> .title > .breadcrumbs');
+	var $breadcrumbs = $(basePage).find('> .title > .breadcrumbs');
   var orig = $breadcrumbs.find('.orig');
   if (orig.length == 0) {
   	if ($subpage.hasClass('basepage')) {
