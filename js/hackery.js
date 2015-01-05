@@ -85,6 +85,11 @@ function subpageSelect(basePage, path) {
 				$subpage.html(html);
 				$subpage.addClass('loaded');
 				$subpage.fitVids();
+				$subpage.find('img, iframe').each(function(i, el) {
+				  $(el).load(function() {
+						updatePageHeight(basePage, $subpage, true);
+				  });
+				});
 				subpageShow(basePage, $subpage);
 			}
 		});
@@ -92,20 +97,24 @@ function subpageSelect(basePage, path) {
 }
 
 function subpageShow(basePage, $subpage) {
-	var $content = $(basePage).find('.content');
-  var $slider = $(basePage).find('.content .slider');
-  var height = $subpage.data('height');
-  if (!height) {
-  	height = $subpage.height();
-  	$subpage.data('height', height);
-  }
+	var $slider = $(basePage).find('.content .slider');
   $slider.animate({
 		left: -$subpage.position().left
 	}, 750, 'easeOutQuint');
-	$content.css('height', height);
+	updatePageHeight(basePage, $subpage);
 	if ($(basePage).hasClass('page-gallery')) {
 		subpageBreadcrumbs(basePage, $subpage);
 	}
+}
+
+function updatePageHeight(basePage, $subpage, recalculate) {
+	var $content = $(basePage).find('.content');
+	var height = $subpage.data('height');
+	if (!height || recalculate) {
+		height = $subpage.height();
+		$subpage.data('height', height);
+	}
+  $content.css('height', height);
 }
 
 function subpageBreadcrumbs(basePage, $subpage) {
