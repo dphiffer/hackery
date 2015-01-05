@@ -87,7 +87,7 @@ function subpageSelect(basePage, path) {
 				$subpage.fitVids();
 				$subpage.find('img, iframe').each(function(i, el) {
 				  $(el).load(function() {
-						updatePageHeight(basePage, $subpage, true);
+						updatePageHeight(basePage, $subpage, el);
 				  });
 				});
 				subpageShow(basePage, $subpage);
@@ -107,14 +107,16 @@ function subpageShow(basePage, $subpage) {
 	}
 }
 
-function updatePageHeight(basePage, $subpage, recalculate) {
-	var $content = $(basePage).find('.content');
-	var height = $subpage.data('height');
-	if (!height || recalculate) {
-		height = $subpage.height();
-		$subpage.data('height', height);
-	}
-  $content.css('height', height);
+function updatePageHeight(basePage, $subpage) {
+	setTimeout(function() {
+	  var $content = $(basePage).find('.content');
+		var height = $subpage.data('height');
+		if (!height) {
+			height = $subpage.height();
+			$subpage.data('height', height);
+		}
+		$content.css('height', height);
+	}, 500);
 }
 
 function subpageBreadcrumbs(basePage, $subpage) {
