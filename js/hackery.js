@@ -114,7 +114,6 @@ function updatePageHeight(basePage, $subpage) {
 		height = $subpage.height();
 		$subpage.data('height', height);
 	}
-	console.log($subpage, height);
 	$content.css('height', height);
 }
 
