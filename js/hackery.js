@@ -108,17 +108,14 @@ function subpageShow(basePage, $subpage) {
 }
 
 function updatePageHeight(basePage, $subpage) {
-	console.log($subpage, $subpage.height());
-	setTimeout(function() {
-	  var $content = $(basePage).find('.content');
-		var height = $subpage.data('height');
-		if (!height) {
-			height = $subpage.height();
-			console.log($subpage, $subpage.height());
-			$subpage.data('height', height);
-		}
-		$content.css('height', height);
-	}, 500);
+	var $content = $(basePage).find('.content');
+	var height = $subpage.data('height');
+	if (!height) {
+		height = $subpage.height();
+		$subpage.data('height', height);
+	}
+	console.log($subpage, height);
+	$content.css('height', height);
 }
 
 function subpageBreadcrumbs(basePage, $subpage) {
