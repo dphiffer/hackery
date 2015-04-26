@@ -345,16 +345,12 @@ h1 {
   color: #ffeb99;
 }
 
-.page-menu > .container > .content {
-	overflow: hidden;
-}
-
-.page-menu .content {
+.slider {
 	position: relative;
 }
 
-.page-menu .slider {
-	position: absolute;
+.page-menu > .container > .content {
+	overflow-x: hidden;
 }
 
 .page-menu .slider .subpage {
@@ -364,7 +360,10 @@ h1 {
 }
 
 .page-gallery > .container > .content {
-	overflow: hidden;
+	overflow-x: hidden;
+	/*overflow-y: visible;
+	height: auto;
+	min-height: 1px;*/
 }
 
 .page-gallery .content {
@@ -372,13 +371,19 @@ h1 {
 }
 
 .page-gallery .slider {
-	position: absolute;
+	overflow: hidden;
 }
 
 .page-gallery .slider .subpage {
 	float: left;
 	width: 980px;
+	height: 1px;
 	margin-right: 16px;
+}
+
+.page-gallery .sliding .subpage,
+.page-gallery .slider .selected {
+	height: auto;
 }
 
 @media (min-width: 349px) {

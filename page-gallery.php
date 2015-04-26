@@ -24,14 +24,14 @@ function hackery_page_gallery_content( $content ) {
 		}
 		$url = get_permalink( $child->ID );
 		$link_id = hackery_path_id( $url );
-		$subpages .= "<div id=\"subpage-$link_id\" class=\"subpage\"></div>\n";
+		$subpages .= "<div id=\"subpage-$link_id\" class=\"subpage\">&nbsp;</div>\n";
 	}
 	$link_id = hackery_path_id( get_permalink( $post->ID ) );
 	$attachments = implode( ',', $attachments );
 	$content .= "<div class=\"slider\">\n" .
 							"<div id=\"subpage-$link_id\" class=\"subpage basepage loaded\">" .
 							"[gallery ids=\"$attachments\"]" .
-							"</div>\n$subpages<br class=\"clear\"></div>\n";
+							"</div>\n$subpages</div>\n";
   return $content;
 }
 add_filter( 'the_content', 'hackery_page_gallery_content', 0 );

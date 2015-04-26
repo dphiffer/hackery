@@ -15,7 +15,7 @@ function hackery_enqueue_scripts() {
 	wp_enqueue_style( 'hackery', get_stylesheet_uri(), array( 'open-sans' ), hackery_modified( '/style.css' ) );
 	wp_enqueue_script( 'picturefill', "$dir/js/picturefill.js", array(), hackery_modified( '/js/picturefill.js' ), true );
 	wp_enqueue_script( 'jquery-fitvids', "$dir/js/jquery.fitvids.js", array( 'jquery' ), hackery_modified( '/js/jquery.fitvids.js' ), true );
-  wp_enqueue_script( 'hackery', "$dir/js/hackery.js", array( 'picturefill', 'jquery', 'jquery-effects-core', 'jquery-fitvids' ), hackery_modified( '/js/hackery.js' ), true );
+  wp_enqueue_script( 'hackery', "$dir/js/hackery.js", array( 'jquery', 'jquery-effects-core', 'jquery-fitvids' ), hackery_modified( '/js/hackery.js' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'hackery_enqueue_scripts' );
 
