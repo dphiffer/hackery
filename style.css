@@ -305,9 +305,18 @@ h1 {
   color: #fff;
 }
 
-.image h1,
+.image h1 {
+	background: rgba(252, 84, 56, 0.75);
+	padding: 0 6px;
+}
+
+.image h1 a {
+	color: #fff;
+}
+
 .image .menu a {
 	background: rgba(255, 255, 255, 0.75);
+	padding: 3px 6px;
 }
 
 .dark.image h1,
