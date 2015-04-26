@@ -305,6 +305,11 @@ h1 {
   color: #fff;
 }
 
+.image h1,
+.image .menu a {
+	background: rgba(255, 255, 255, 0.75);
+}
+
 .dark.image h1,
 .dark.image .menu a {
 	background: rgba(0, 0, 0, 0.75);
