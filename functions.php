@@ -377,7 +377,9 @@ function hackery_the_content( $html ) {
   		$grandparent->removeChild( $parent );
   	}
   }
-  return hackery_document_html( $doc );
+  $html = hackery_document_html( $doc );
+  $html = str_replace('</iframe><br>', '</iframe>', $html);
+  return $html;
 }
 add_filter( 'the_content', 'hackery_the_content', 100 );
 
