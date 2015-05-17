@@ -269,7 +269,9 @@ section section .breadcrumbs,
 h1, h3,
 .menu {
 	display: inline-block;
-	font-size: 12px;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -279,7 +281,7 @@ h1 {
 }
 
 .content {
-	margin: 64px 0;
+	/*margin: 64px 0;*/
 }
 
 .gallery-item {
@@ -305,27 +307,27 @@ h1 {
   color: #fff;
 }
 
-.image h1 {
+.format-image h1 {
 	background: rgba(252, 84, 56, 0.75);
 	padding: 0 6px;
 }
 
-.image h1 a {
+.format-image h1 a {
 	color: #fff;
 }
 
-.image h1 a:hover {
+.format-image h1 a:hover {
 	color: #fff;
 	background: transparent;
 }
 
-.image .menu a {
+.format-image .menu a {
 	background: rgba(255, 255, 255, 0.75);
 	padding: 3px 6px;
 }
 
-.dark.image h1,
-.dark.image .menu a {
+.dark.format-image h1,
+.dark.format-image .menu a {
 	background: rgba(0, 0, 0, 0.75);
 }
 
@@ -378,30 +380,30 @@ h1 {
 	margin-right: 16px;
 }
 
-.page-gallery > .container > .content {
+.format-gallery > .container > .content {
 	overflow-x: hidden;
 	/*overflow-y: visible;
 	height: auto;
 	min-height: 1px;*/
 }
 
-.page-gallery .content {
+.format-gallery .content {
 	position: relative;
 }
 
-.page-gallery .slider {
+.format-gallery .slider {
 	overflow: hidden;
 }
 
-.page-gallery .slider .subpage {
+.format-gallery .slider .subpage {
 	float: left;
 	width: 980px;
 	height: 1px;
 	margin-right: 16px;
 }
 
-.page-gallery .sliding .subpage,
-.page-gallery .slider .selected {
+.format-gallery .sliding .subpage,
+.format-gallery .slider .selected {
 	height: auto;
 }
 
@@ -430,7 +432,7 @@ h1 {
 		margin: 64px auto;
 	}
 	
-	.page-full-width > .container > .content {
+	.format-gallery > .container > .content {
 		width: 100%;
 	}
 	

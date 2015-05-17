@@ -5,7 +5,6 @@ Template Name: Menu
 */
 
 global $post;
-hackery_page_class( 'page-menu' );
 
 hackery_header();
 hackery_the_post();

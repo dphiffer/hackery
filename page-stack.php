@@ -8,8 +8,6 @@ global $post;
 hackery_header();
 hackery_the_post();
 
-hackery_page_class( 'page-stack' );
-
 ?>
 		<section <?php hackery_page_attributes(); ?>>
 			<?php edit_post_link( 'Edit', '', "\n" ); ?>

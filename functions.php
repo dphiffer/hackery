@@ -7,6 +7,8 @@ function hackery_setup_theme() {
 	add_theme_support( 'html5', array(
 		'search-form', 'gallery', 'caption'
 	) );
+	add_theme_support( 'post-formats', array( 'image', 'gallery' ) );
+	add_post_type_support( 'page', 'post-formats' );
 }
 add_action( 'after_setup_theme', 'hackery_setup_theme' );
 
@@ -135,7 +137,7 @@ function hackery_the_post() {
 }
 
 function hackery_footer() {
-	global $_hackery_template_depth, $_hackery_page_class;
+	global $_hackery_template_depth;
 	if ( $_hackery_template_depth == 1 ) {
 		get_footer();
 	} 
@@ -167,44 +169,50 @@ function hackery_data_image() {
   if (empty($image_id)) {
   	return '';
   }
-  list($image) = wp_get_attachment_image_src($image_id, 'xl', true);
-  echo " data-image=\"$image\"";
+  list($src) = wp_get_attachment_image_src($image_id, 'full');
+  echo " data-image=\"$src\"";
 }
 
-function hackery_page_class( $page_class ) {
-	global $_hackery_page_class;
-	if ( empty( $_hackery_page_class ) ) {
-		$meta_page_class = get_post_meta( get_the_ID(), 'page_class', true );
-		$meta_page_class = preg_split( '/\s+/', $meta_page_class );
-		foreach ( $meta_page_class as $meta_class ) {
-			$_hackery_page_class[] = trim( $meta_class );
-		}
+function hackery_page_class( $page_class = '' ) {
+	$page_template = get_page_template();
+	$page_class = str_replace('.php', '', basename( $page_template ) );
+	
+	$page_format = get_post_format();
+  if ( ! empty( $page_format ) ) {
+  	$page_class .= " format-$page_format";
 	}
-	$_hackery_page_class[] = $page_class;
-  return $_hackery_page_class;
+	
+	$meta_page_class = get_post_meta( get_the_ID(), 'page_class', true );
+	if ( ! empty( $meta_page_class ) ) {
+		$page_class .= " $meta_page_class";
+	}
+	return $page_class;
 }
 
 function hackery_body_class( $body_class ) {
-	global $_hackery_page_class;
-  if ( get_page_template() != 'page-stack.php' &&
-       ! empty( $_hackery_page_class ) ) {
-  	$body_class = array_merge( $body_class, $_hackery_page_class );
+	$page_template = get_page_template();
+  if ( 'page-stack.php' != basename( $page_template ) ) {
+  	$hackery_page_class = hackery_page_class();
+  	$hackery_classes = explode( ' ', trim( $hackery_page_class ) );
+  	$body_class = array_merge( $body_class, $hackery_classes );
   }
   return $body_class;
 }
 add_filter( 'body_class', 'hackery_body_class' );
 
 function hackery_page_attributes() {
-	global $_hackery_page_class;
+	global $post;
 	$page_id = hackery_path_id( get_permalink() );
   echo " id=\"page-$page_id\"";
-  if ( ! empty( $_hackery_page_class ) ) {
-  	echo ' class="' . implode( ' ', $_hackery_page_class ) . '"';
+  $page_class = hackery_page_class();
+  $page_class = apply_filters( 'hackery_page_class', $page_class, $post );
+  if ( ! empty( $page_class ) ) {
+  	$page_class = esc_attr($page_class);
+  	echo " class=\"$page_class\"";
   }
-  if ( array_search( 'image', $_hackery_page_class ) !== false ) {
+  if ( 'image' === get_post_format() ) {
   	hackery_data_image();
   }
-  $_hackery_page_class = array();
 }
 
 function hackery_path_id( $url ) {
@@ -357,8 +365,41 @@ function hackery_get_image_tag( $html, $id, $alt, $title, $align, $size ) {
 }
 add_filter( 'get_image_tag', 'hackery_get_image_tag', 10, 6 );
 
-function hackery_the_content( $html ) {
-  $doc = hackery_dom_document( $html );
+function hackery_gallery_content( $html ) {
+	global $post;
+  if ( 'gallery' !== get_post_format() ) {
+  	return $html;
+  }
+	$children = get_posts( array(
+		'post_parent' => $post->ID,
+		'post_type' => 'page',
+		'posts_per_page' => -1,
+		'orderby' => 'menu_order',
+		'order' => 'asc'
+	) );
+	$attachments = array();
+	$subpages = '';
+	foreach ( $children as $child ) {
+		$attachment_id = get_post_thumbnail_id( $child->ID );
+		if ( ! empty( $attachment_id ) ) {
+			$attachments[] = $attachment_id;
+		}
+		$url = get_permalink( $child->ID );
+		$link_id = hackery_path_id( $url );
+		$subpages .= "<div id=\"subpage-$link_id\" class=\"subpage\">&nbsp;</div>\n";
+	}
+	$link_id = hackery_path_id( get_permalink( $post->ID ) );
+	$attachments = implode( ',', $attachments );
+	$html .= "<div class=\"slider\">\n" .
+							"<div id=\"subpage-$link_id\" class=\"subpage basepage loaded\">" .
+							"[gallery ids=\"$attachments\"]" .
+							"</div>\n$subpages</div>\n";
+	return $html;
+}
+add_filter( 'the_content', 'hackery_gallery_content', 0 );
+
+function hackery_cleanup_content( $html ) {
+	$doc = hackery_dom_document( $html );
   $figures = $doc->getElementsByTagName( 'figure' );
   foreach ( $figures as $figure ) {
   	if ( strtolower( $figure->parentNode->nodeName ) == 'p' ) {
@@ -379,9 +420,10 @@ function hackery_the_content( $html ) {
   }
   $html = hackery_document_html( $doc );
   $html = str_replace('</iframe><br>', '</iframe>', $html);
+  
   return $html;
 }
-add_filter( 'the_content', 'hackery_the_content', 100 );
+add_filter( 'the_content', 'hackery_cleanup_content', 100 );
 
 function hackery_dom_document( $html ) {
   libxml_use_internal_errors(true);

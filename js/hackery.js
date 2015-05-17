@@ -16,7 +16,7 @@ function checkURLHash() {
 	var link = document.getElementById('menu-' + path);
 	if (link) {
 		menuSelect(path);
-	} else if ($(basePage).hasClass('page-gallery')) {
+	} else if ($(basePage).hasClass('format-gallery')) {
 		gallerySelect(path);
 	}
 }
@@ -109,7 +109,7 @@ function subpageShow(basePage, $subpage) {
 	/*heightInterval = setInterval(function() {
 		updatePageHeight(basePage, $subpage);
 	}, 500);*/
-	if ($(basePage).hasClass('page-gallery')) {
+	if ($(basePage).hasClass('format-gallery')) {
 		subpageBreadcrumbs(basePage, $subpage);
 	}
 }
@@ -170,7 +170,7 @@ $(document).ready(function() {
 	  	    $(el).attr('id') == 'page-' + locationPath) {
 	  		menuSelect(links[0].pathname);
 	  	}
-	  } else if ($(el).hasClass('page-gallery')) {
+	  } else if ($(el).hasClass('format-gallery')) {
 	  	var links = $(el).find('.gallery-icon a');
 	  	var locationPath = location.hash.substr(1);
 	  	$(el).find('.slider').css('width', 996 * (links.length + 1));
