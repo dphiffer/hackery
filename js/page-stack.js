@@ -32,7 +32,7 @@
 		var path = match[1];
 		var basePage = getBasePage(path);
 		if (basePage) {
-			$('body').animate({
+			$('html, body').animate({
 				scrollTop: $(basePage).offset().top
 			}, 750, 'easeOutQuint');
 		}
