@@ -13,11 +13,19 @@ function hackery_setup_theme() {
 add_action( 'after_setup_theme', 'hackery_setup_theme' );
 
 function hackery_enqueue_scripts() {
+	$js_modules = array(
+		'page-stack',
+		'page-menu',
+		'background-image'
+	);
 	$dir = get_template_directory_uri();
 	wp_enqueue_style( 'hackery', get_stylesheet_uri(), array( 'open-sans' ), hackery_modified( '/style.css' ) );
 	wp_enqueue_script( 'picturefill', "$dir/js/picturefill.js", array(), hackery_modified( '/js/picturefill.js' ), true );
 	wp_enqueue_script( 'jquery-fitvids', "$dir/js/jquery.fitvids.js", array( 'jquery' ), hackery_modified( '/js/jquery.fitvids.js' ), true );
   wp_enqueue_script( 'hackery', "$dir/js/hackery.js", array( 'jquery', 'jquery-effects-core', 'jquery-fitvids' ), hackery_modified( '/js/hackery.js' ), true );
+  foreach ( $js_modules as $js_module ) {
+  	wp_enqueue_script( "hackery-$js_module", "$dir/js/$js_module.js", array( 'hackery' ), hackery_modified( "/js/$js_module.js" ), true );
+  }
 }
 add_action( 'wp_enqueue_scripts', 'hackery_enqueue_scripts' );
 
@@ -170,7 +178,7 @@ function hackery_data_image() {
   	return '';
   }
   list($src) = wp_get_attachment_image_src($image_id, 'full');
-  echo " data-image=\"$src\"";
+  echo " data-background-image=\"$src\"";
 }
 
 function hackery_page_class( $page_class = '' ) {
@@ -206,12 +214,12 @@ function hackery_page_attributes() {
   echo " id=\"page-$page_id\"";
   $page_class = hackery_page_class();
   $page_class = apply_filters( 'hackery_page_class', $page_class, $post );
+  if ( 'image' === get_post_format() ) {
+  	hackery_data_image();
+  }
   if ( ! empty( $page_class ) ) {
   	$page_class = esc_attr($page_class);
   	echo " class=\"$page_class\"";
-  }
-  if ( 'image' === get_post_format() ) {
-  	hackery_data_image();
   }
 }
 

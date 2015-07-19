@@ -33,10 +33,7 @@ hackery_the_post();
 					</ul>
 				</nav>
 				<div class="content">
-					<div class="slider">
-						<?php echo $subpages; ?>
-						<br class="clear">
-					</div>
+					<?php echo $subpages; ?>
 				</div>
 				<br class="clear">
 			</div>

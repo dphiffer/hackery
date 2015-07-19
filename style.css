@@ -370,7 +370,7 @@ h1 {
 	display: none;
 }
 
-.selected {
+div.selected {
 	display: block;
 }
 
