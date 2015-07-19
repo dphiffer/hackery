@@ -378,22 +378,14 @@ function hackery_gallery_content( $html ) {
 		'order' => 'asc'
 	) );
 	$attachments = array();
-	$subpages = '';
 	foreach ( $children as $child ) {
 		$attachment_id = get_post_thumbnail_id( $child->ID );
 		if ( ! empty( $attachment_id ) ) {
 			$attachments[] = $attachment_id;
 		}
-		$url = get_permalink( $child->ID );
-		$link_id = hackery_path_id( $url );
-		$subpages .= "<div id=\"subpage-$link_id\" class=\"subpage\">&nbsp;</div>\n";
 	}
-	$link_id = hackery_path_id( get_permalink( $post->ID ) );
 	$attachments = implode( ',', $attachments );
-	$html .= "<div class=\"slider\">\n" .
-							"<div id=\"subpage-$link_id\" class=\"subpage basepage loaded\">" .
-							"[gallery ids=\"$attachments\"]" .
-							"</div>\n$subpages</div>\n";
+	$html .= "[gallery ids=\"$attachments\"]";
 	return $html;
 }
 add_filter( 'the_content', 'hackery_gallery_content', 0 );

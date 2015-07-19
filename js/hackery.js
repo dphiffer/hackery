@@ -1,6 +1,6 @@
 (function($) {
 
-var $root = $('html, body');
+var $body = $('body');
 function checkURLHash() {
 	var match = location.hash.match(/^#(\/.*)/);
 	if (!match) {
@@ -9,7 +9,7 @@ function checkURLHash() {
 	var path = match[1];
 	var basePage = getBasePage(path);
 	if (basePage) {
-		$root.animate({
+		$body.animate({
 			scrollTop: $(basePage).offset().top
 		}, 750, 'easeOutQuint');
 	}
@@ -67,7 +67,7 @@ function menuSelect(path) {
 }
 
 function gallerySelect(path) {
-  var basePage = getBasePage(path);
+	var basePage = getBasePage(path);
   if (!basePage) {
   	return;
   }
@@ -75,6 +75,7 @@ function gallerySelect(path) {
 }
 
 function subpageSelect(basePage, path) {
+	console.log('subpageSelect ' + basePage + ' ' + path);
   var $subpage = $(document.getElementById('subpage-' + path));
   if ($subpage.hasClass('loaded')) {
   	subpageShow(basePage, $subpage);
@@ -91,47 +92,16 @@ function subpageSelect(basePage, path) {
 	}
 }
 
-var heightInterval = null;
 function subpageShow(basePage, $subpage) {
-	var $slider = $(basePage).find('.content .slider');
-	$slider.addClass('sliding');
-  $slider.animate({
-		marginLeft: -$subpage.position().left
-	}, 750, 'easeOutQuint', function() {
-		$slider.find('.selected').removeClass('selected');
-		$subpage.addClass('selected');
-	  $slider.removeClass('sliding');
-	});
-	updatePageHeight(basePage, $subpage);
-	if (heightInterval) {
-		clearInterval(heightInterval);
-	}
-	/*heightInterval = setInterval(function() {
-		updatePageHeight(basePage, $subpage);
-	}, 500);*/
+	$(basePage).find('.selected').removeClass('selected');
+	$subpage.addClass('selected');
 	if ($(basePage).hasClass('format-gallery')) {
 		subpageBreadcrumbs(basePage, $subpage);
 	}
 }
 
-function updatePageHeight(basePage, $subpage) {
-	return;
-	var height;
-	if ($subpage.hasClass('subpage')) {
-		height = $subpage.height();
-	} else {
-		height = $subpage.closest('.subpage').height();
-	}
-	var $content = $(basePage).find('.content');
-	/*var height = $subpage.data('height');
-	if (!height || $subpage.height() > height) {
-		height = $subpage.height();
-		$subpage.data('height', height);
-	}*/
-	$content.css('height', height);
-}
-
 function subpageBreadcrumbs(basePage, $subpage) {
+	console.log('subpageBreadcrumbs ' + basePage, $subpage);
 	var html = $subpage.find('.breadcrumbs').html();
 	var $breadcrumbs = $(basePage).find('> .title > .breadcrumbs');
   var orig = $breadcrumbs.find('.orig');
@@ -140,7 +110,7 @@ function subpageBreadcrumbs(basePage, $subpage) {
   		html = $breadcrumbs.html();
   	}
   	$breadcrumbs.html('<div class="orig">' + $breadcrumbs.html() + '</div>' +
-  	                  '<div class="curr">' + html + '</div>');
+  	                  '<div class="curr">' + $breadcrumbs.html() + '</div>');
   } else if ($subpage.hasClass('basepage')) {
   	html = $breadcrumbs.find('.orig').html();
   	$breadcrumbs.find('.curr').html(html);
@@ -165,7 +135,6 @@ $(document).ready(function() {
 	  if ($(el).hasClass('page-menu')) {
 	  	var links = $(el).find('.menu a');
 	  	var locationPath = location.hash.substr(1);
-	  	$(el).find('.slider').css('width', 664 * links.length);
 	  	if ($(el).attr('id') != getBaseId(locationPath) ||
 	  	    $(el).attr('id') == 'page-' + locationPath) {
 	  		menuSelect(links[0].pathname);
