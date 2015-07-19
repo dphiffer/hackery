@@ -431,8 +431,9 @@ div.selected {
 		width: 482px;
 	}
 	
-	.format-gallery .slider .subpage {
-		width: 980px;
+	.alignright img {
+		display: block;
+		margin-top: 15px;
 	}
 	
 }
