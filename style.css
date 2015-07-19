@@ -274,6 +274,10 @@ h1, h3, .menu {
 	letter-spacing: 0.1em;
 }
 
+.breadcrumbs h1 {
+	display: inline-block;
+}
+
 h1 {
 	margin-bottom: 1em;
 }
@@ -345,7 +349,7 @@ h1 {
 .page-menu .menu {
 	float: left;
 	width: 316px;
-	margin: 64px 0;
+	margin: 32px 0;
 }
 
 .page-menu .content {
@@ -390,6 +394,10 @@ div.selected {
 	body {
 		font-size: 16px;
 		line-height: 28px;
+	}
+	
+	.page-menu .menu {
+		margin: 64px 0;
 	}
 	
 	.content {
