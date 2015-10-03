@@ -444,4 +444,8 @@ div.selected {
 		margin-top: 15px;
 	}
 	
+	.alignright:first-child img {
+		margin-top: 8px;
+	}
+
 }
