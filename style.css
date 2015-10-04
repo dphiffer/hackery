@@ -492,6 +492,11 @@ footer .clear {
 
 @media (min-width: 1013px) {
 	
+	img {
+		width: auto;
+		max-width: 980px;
+	}
+	
 	.container {
 		width: 980px;
 		margin: 0 auto;
