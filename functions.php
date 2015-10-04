@@ -454,3 +454,14 @@ function hackery_document_html( $doc ) {
 	$html = str_replace( '</body></html>', '', $html );
   return $html;
 }
+
+function hackery_normalize_urls( $content ) {
+	$host = $_SERVER['HTTP_HOST'];
+	$content = str_replace("new.$host", $host, $content );
+	$content = str_replace("dev.$host", $host, $content );
+	$content = str_replace("stg.$host", $host, $content );
+	return $content;
+}
+if ( ! preg_match('/^(new|dev|stg)\./', $_SERVER['HTTP_HOST'] ) ) {
+	add_filter( 'the_content', 'hackery_normalize_urls' );
+}
