@@ -128,12 +128,15 @@ function hackery_wp_markup( $function ) {
 
 function hackery_header() {
 	global $_hackery_template_depth;
-	if ( empty( $_hackery_template_depth ) &&
-	     empty( $_GET['ajax'] ) ) {
-		get_header();
+	if ( ! empty( $_GET['ajax'] ) ) {
 		$_hackery_template_depth = 1;
 	} else {
-		$_hackery_template_depth++;
+		if ( empty( $_hackery_template_depth ) ) {
+			get_header();
+			$_hackery_template_depth = 1;
+		} else {
+			$_hackery_template_depth++;
+		}
 	}
 }
 
@@ -146,10 +149,12 @@ function hackery_the_post() {
 
 function hackery_footer() {
 	global $_hackery_template_depth;
-	if ( $_hackery_template_depth == 1 ) {
-		get_footer();
-	} 
-  $_hackery_template_depth--;
+	if ( empty( $_GET['ajax'] ) ) {
+		if ( $_hackery_template_depth == 1 ) {
+			get_footer();
+		}
+	  $_hackery_template_depth--;
+	}
 }
 
 function hackery_menu_links() {
@@ -235,6 +240,7 @@ function hackery_title() {
 	if ( $breadcrumbs_id != 0 ) {
 		while ( $breadcrumbs_id != 0 ) {
 			$parent_title = get_the_title( $breadcrumbs_id );
+			$parent_title = str_replace( ' ', '&nbsp;', $parent_title );
 			$parent_url = get_permalink( $breadcrumbs_id );
 			array_push( $breadcrumbs, "<a href=\"$parent_url\">$parent_title</a>" );
 			$breadcrumbs_post = get_post( $breadcrumbs_id );
@@ -242,6 +248,7 @@ function hackery_title() {
 		}
 	}
 	$title = get_the_title();
+	$title = str_replace( ' ', '&nbsp;', $title );
 	$url = get_permalink();
 	$tag = ( $post->post_parent == 0 ) ? 'h1' : 'h2';
   array_unshift( $breadcrumbs, "<$tag><a href=\"$url\">$title</a></$tag>" );
