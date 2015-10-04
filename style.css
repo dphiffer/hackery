@@ -410,16 +410,12 @@ div.selected {
 .three-images figure {
 	box-sizing: border-box;
 	padding-right: 15px;
-	width: calc(33.33%);
+	width: 33.33%;
 }
 
 .three-images figure img {
-	width: 100px;
+	width: 100%;
 	height: auto;
-}
-
-.three-images figure:last-child {
-	padding-right: 0;
 }
 
 @media (min-width: 376px) {
