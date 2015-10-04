@@ -503,6 +503,14 @@ footer .clear {
 		max-width: 980px;
 	}
 	
+	figure img {
+		width: 100%;
+	}
+	
+	figure.size-xl {
+		width: 980px;
+	}
+	
 	.container {
 		width: 980px;
 		margin: 0 auto;
