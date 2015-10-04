@@ -176,6 +176,10 @@ dd {
 	margin-bottom: 1.5em;
 }
 
+.subpage .title {
+	margin-bottom: 0;
+}
+
 .breadcrumbs,
 .post-edit-link {
 	color: #808080;
@@ -381,6 +385,10 @@ div.selected {
 
 .fluid-width-video-wrapper {
 	margin-top: 15px;
+}
+
+.subpage .fluid-width-video-wrapper {
+	margin-top: 0;
 }
 
 .content ul {
