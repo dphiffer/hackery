@@ -430,6 +430,12 @@ footer .clear {
 	display: none;
 }
 
+.three-images:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
 @media (min-width: 376px) {
 	
 	.gallery {
@@ -527,16 +533,14 @@ footer .clear {
 		width: 980px;
 	}
 
-	.three-images:after {
-		clear: both;
-		content: "";
-		display: table;
-	}
-
 	.three-images figure {
 		box-sizing: border-box;
 		padding-right: 15px;
 		width: 33.33%;
+	}
+	
+	.three-images figure img {
+		width: 100%;
 	}
 
 }
