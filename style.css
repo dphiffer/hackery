@@ -389,6 +389,14 @@ div.selected {
 	margin-left: 1.5em;
 }
 
+.content ul > li {
+	list-style: square;
+}
+
+.content ol > li {
+	list-style: decimal;
+}
+
 @media (min-width: 376px) {
 	
 	.gallery {
