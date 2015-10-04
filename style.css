@@ -134,13 +134,10 @@ figure {
 	margin: 1.5em 0 1em 0;
 }
 
-figure img {
-	width: 100%;
-	height: auto;
-}
-
 img {
 	vertical-align: top;
+	width: 100%;
+	height: auto;
 }
 
 iframe {
@@ -535,11 +532,6 @@ footer .clear {
 		box-sizing: border-box;
 		padding-right: 15px;
 		width: 33.33%;
-	}
-
-	.three-images figure img {
-		width: 100%;
-		height: auto;
 	}
 
 }
