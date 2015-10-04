@@ -376,6 +376,10 @@ div.selected {
 	display: block;
 }
 
+.fluid-width-video-wrapper {
+	margin-top: 15px;
+}
+
 @media (min-width: 376px) {
 	
 	.gallery {
