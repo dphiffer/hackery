@@ -283,6 +283,7 @@ h1, h3, .menu {
 
 .breadcrumbs h1 {
 	display: inline-block;
+	line-height: 200%;
 }
 
 h1 {
