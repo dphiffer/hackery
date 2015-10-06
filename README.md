@@ -5,7 +5,7 @@
 
 *Works best in conjunction with [Media Press](https://github.com/dphiffer/media-press) plugin.*
 
-* Thumbnail size: 316 x 195
+* Thumbnail size: 316 x 195 (yes, crop it)
 * Medium size: 482 x 0 (no limit on height)
 * Large size: 648 x 0
 * XL size: 980 x 0 (don’t crop, show in image insertion)
