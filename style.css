@@ -431,7 +431,21 @@ body.page-template-page-stack footer {
 	margin: 16px 0 0 0;
 }
 
-footer p {
+footer ul,
+footer li {
+	display: inline;
+}
+
+footer li:after {
+	content: " / ";
+}
+
+footer li:last-child:after {
+	content: "";
+}
+
+footer p,
+footer ul {
 	margin: 0 0 5px 0;
 }
 
@@ -491,7 +505,7 @@ footer .clear {
 		margin-left: 16px;
 	}
 	
-	footer p {
+	footer .links {
 		float: left;
 	}
 	

@@ -1,6 +1,10 @@
 # Hackery
 ## WordPress theme developed for [ellieirons.com](http://ellieirons.com/)
 
+### Requirements
+
+* PHP version 5.4 (DomDocument options)
+
 ### Media settings
 
 *Works best in conjunction with [Media Press](https://github.com/dphiffer/media-press) plugin.*
@@ -44,3 +48,8 @@ Use the __Gallery__ format for the “projects” treatment
 
 * Use the `page_class` custom field for adding a CSS class to a page
 * Set `page_class` to `dark` to invert the color scheme (like with the “videos” page)
+
+### Footer links
+
+* Edit the links in the __Links__ section of the WordPress admin
+* Use the __rating__ value to sort links by importance (higher rating comes first)
