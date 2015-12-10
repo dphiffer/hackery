@@ -479,6 +479,11 @@ footer .clear {
 	margin-top: 0;
 }
 
+figure a.border {
+	display: block;
+	border: 2px solid #ffeb99;
+}
+
 @media (min-width: 376px) {
 	
 	.gallery {
